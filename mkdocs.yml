@@ -1,0 +1,6 @@
+site_name: OYMotion
+site_descritpion: It is for oymotion
+copyright: 2017 oYMotion Inc
+pages:
+  - Home: index.md
+  - About: about.md
