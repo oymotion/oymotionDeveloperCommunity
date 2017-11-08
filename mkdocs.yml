@@ -1,6 +1,13 @@
 site_name: OYMotion
-site_descritpion: It is for oymotion
-copyright: 2017 oYMotion Inc
+site_author: KaiZhou
+copyright: Copyright© 2017 OYMotion Technologies,Inc.All rights reserved. 
 pages:
   - Home: index.md
-  - About: about.md
+  - Document:
+    - gForce100: ./gForce100/gForce100UserGuide.md
+    - gForce Embedded Suit: ./gForceEmbeddedSuit/gForce100EmbeddedSuiteUserGuide.md
+    - gForceEMG: ./gForceEMGRawData/gForceEMGRawData.md
+    - gForceNeuron: ./gForceNeuron/gForceNeuronUserGuide.md
+    - gForceDataProtocol: ./gForceDataProtocol/gForceDataProtocol.md
+  - OpenSoftware: ./openSoftwareList/openSoftware.md
+  - Download: ./downloadList/Download.md
