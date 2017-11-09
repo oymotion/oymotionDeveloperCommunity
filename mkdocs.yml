@@ -1,13 +1,12 @@
 site_name: OYMotion
 site_author: KaiZhou
 copyright: Copyright© 2017 OYMotion Technologies,Inc.All rights reserved. 
-remote_branch: master
-remote_name: oymotionIO
 pages:
   - Home: index.md
   - Document:
     - gForce100: ./gForce100/gForce100UserGuide.md
     - gForce Embedded Suit: ./gForceEmbeddedSuit/gForce100EmbeddedSuiteUserGuide.md
+    - test: index.md
     - gForceEMG: ./gForceEMGRawData/gForceEMGRawData.md
     - gForceNeuron: ./gForceNeuron/gForceNeuronUserGuide.md
     - gForceDataProtocol: ./gForceDataProtocol/gForceDataProtocol.md
