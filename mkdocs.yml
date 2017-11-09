@@ -1,6 +1,8 @@
 site_name: OYMotion
 site_author: KaiZhou
 copyright: Copyright© 2017 OYMotion Technologies,Inc.All rights reserved. 
+remote_branch: master
+remote_name: oymotionIO
 pages:
   - Home: index.md
   - Document:
