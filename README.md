@@ -32,7 +32,8 @@ $ mkdocs gh-deploy
 $ git checkout gh-pages
 $ git push oymotionIO gh-pages:master
 ```
-**Note:** You should never edit andy files in oymotion.github.io repository by hand otherwise you will lose your work.
+**Note:** You should never edit andy files in `oymotion.github.io` repository and
+`gh-pages` branch  by hand otherwise you will lose your work.
 
 For more details about `mkdocs gh-deploy`,please reference [How to Deploying Docs](http://www.mkdocs.org/user-guide/deploying-your-docs/)
 
