@@ -6,7 +6,6 @@ pages:
   - Document:
     - gForce100: ./gForce100/gForce100UserGuide.md
     - gForce Embedded Suit: ./gForceEmbeddedSuit/gForce100EmbeddedSuiteUserGuide.md
-    - test: index.md
     - gForceEMG: ./gForceEMGRawData/gForceEMGRawData.md
     - gForceNeuron: ./gForceNeuron/gForceNeuronUserGuide.md
     - gForceDataProtocol: ./gForceDataProtocol/gForceDataProtocol.md
