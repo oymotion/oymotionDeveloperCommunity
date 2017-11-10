@@ -29,6 +29,8 @@ $ git remote add oymotionIO https://github.com/oymotion/oymotion.github.io.git
 $ cd websit
 $ ...(merge pull request or make some changes by yourself)
 $ mkdocs gh-deploy
+$ git checkout gh-pages
+$ git push oymotionIO gh-pages:master
 ```
 **Note:** You should never edit andy files in oymotion.github.io repository by hand otherwise you will lose your work.
 
