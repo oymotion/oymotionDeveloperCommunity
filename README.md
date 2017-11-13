@@ -9,8 +9,8 @@ Please reference [How to Install mkdocs](http://www.mkdocs.org/#installation)
 ### Make some changes
 
 ```
-$ git clone https://github.com/oymotion/communitySite.git
-$ cd websiit
+$ git clone https://github.com/oymotion/oymotionDeveloperCommunity.git
+$ cd oymotionDeveloperCommunity
 $ ...(make some changes)
 $ mkdocs serve
 ```
@@ -24,9 +24,9 @@ Please reference [How to Install mkdocs](http://www.mkdocs.org/#installation)
 ### Deploying Docs
 
 ```
-$ git clone https://github.com/oymotion/communitySite.git
+$ git clone https://github.com/oymotion/oymotionDeveloperCommunity.git
 $ git remote add oymotionIO https://github.com/oymotion/oymotion.github.io.git
-$ cd websit
+$ cd oymotionDeveloperCommunity
 $ ...(merge pull request or make some changes by yourself)
 $ mkdocs gh-deploy
 $ git checkout gh-pages
