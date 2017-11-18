@@ -7,6 +7,8 @@ pages:
     - gForce100: ./gForce100/gForce100UserGuide.md
     - gForce Embedded Suit: ./gForceEmbeddedSuit/gForce100EmbeddedSuiteUserGuide.md
     - gForceEMG: ./gForceEMGRawData/gForceEMGRawData.md
+    - gForceExample:
+      - LobotControl: ./gForceExample/LobotControlBygForce/LobotControlBygForce.md
     - gForceNeuron: ./gForceNeuron/gForceNeuronUserGuide.md
     - gForceDataProtocol: ./gForceDataProtocol/gForceDataProtocol.md
   - OpenSoftware: ./openSoftwareList/openSoftware.md
