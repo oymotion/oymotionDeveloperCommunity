@@ -66,7 +66,7 @@
 
 # 问题反馈
 在使用过程中有任何问题，欢迎邮件反馈。   
-* 邮件:kaizhou@oymotion.com
+* 邮件:info@oymotion.com
 
 [gForce]:https://oymotion.github.io/gForce100/gForce100UserGuide/
 [gForceJoint]:https://oymotion.github.io/gForceEmbeddedSuit/gForce100EmbeddedSuiteUserGuide/#overview
