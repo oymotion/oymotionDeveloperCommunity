@@ -82,6 +82,10 @@ data in quaternions or [Euler Angles][EulerAngles] from its built-in 6-axis
 
   Provides some basic filter functions for sEMG digital signals.
 
+### Video tutorials
+* [How to make standard gesture](http://video.tudou.com/v/XMjQ2NjgxNzE1Mg)
+* [How to assemble gForce](http://v.qq.com/x/page/f039073hsc5.html)
+* [How to use gForce](http://v.qq.com/x/page/i03876az03e.html)
 
 [HID]: https://en.wikipedia.org/wiki/Human_interface_device
 [GestureRecognition]: https://en.wikipedia.org/wiki/Gesture_recognition
