@@ -17,3 +17,7 @@ Oct 11th,2017
 * [download serial port driver](../assets/downloads/PL2303-WIN7-64.zip)
 
     serial port driver for Arduino MEGA
+
+* [download gForceJoint driver](../assets/downloads/ftdi_ft232_driver.7z)
+
+    serial port driver for gForceJoint and gForceDongle
