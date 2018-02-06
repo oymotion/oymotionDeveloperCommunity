@@ -18,6 +18,6 @@ Oct 11th,2017
 
     serial port driver for Arduino MEGA
 
-* [download gForceJoint driver](../assets/downloads/ftdi_ft232_driver.7z)
+* [download gForceDongle driver](../assets/downloads/ftdi_ft232_driver.7z)
 
-    serial port driver for gForceJoint and gForceDongle
+    serial port driver for gForceDongle
