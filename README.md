@@ -19,7 +19,7 @@ Then you would be able to preview you local web site at http://localhost:8000
 ## How to Update web site as [oymotion](https://oymotion.github.io) owner
 
 ### Install [mkDocs](http://www.mkdocs.org) 
-Please reference [How to Install mkdocs](http://www.mkdocs.org/#installation)
+Please refer to [How to Install mkdocs](http://www.mkdocs.org/#installation)
 
 ### Deploying Docs
 

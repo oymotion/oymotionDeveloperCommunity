@@ -1,5 +1,11 @@
 # Download List
 
+May 12th,2018
+
+* [gForceSDK](https://github.com/oymotion/gForceSDK/releases/download/v0.5.0/gForceSDK-win-0.5.0.7z)
+
+    Software development kit for gForce armband.Only **windows** is supported.
+
 Oct 11th,2017
 
 * [gForceApp for Android  gForceApp_v2.3.4-20171009.apk](../assets/downloads/gForceApp_v2.3.4-20171009.apk)

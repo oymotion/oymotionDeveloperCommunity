@@ -11,11 +11,6 @@ Oct 11th,2017
 
   An open source simple example developed for Android to illustrate
 
-* [gForce SDK][gForceSDK]
-
-  The SDK for Windows and Android with Unity support.   
-  Internal testing, coming soon......
-
 * [gForceApp][gForceApp]
 
   The **hub** application for other applications to interact with
@@ -30,6 +25,5 @@ Oct 11th,2017
 [gForceSDKArduino]: https://github.com/oymotion/gForceSDKArduino
 [gForceDataProtocolSample]: https://github.com/oymotion/gForceDataProtocolSample
 [EMGFilters]: https://github.com/oymotion/EMGFilters
-[gForceSDK]: https://github.com/oymotion/gForceSDK
 [gForceApp]: https://github.com/oymotion/gForceApp
 [gForceAppForAndroid]: https://github.com/oymotion/gForceApp/releases
