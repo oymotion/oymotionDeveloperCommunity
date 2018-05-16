@@ -6,6 +6,12 @@ May 12th,2018
 
     Software development kit for gForce armband.Only **windows** is supported.
 
+May 3th,2018
+
+* [Training Tool](https://github.com/oymotion/OTrain/releases/download/v0.5/OTrain_v0.5.zip)
+
+    Training tool for gForce and OHand.
+	
 Oct 11th,2017
 
 * [gForceApp for Android  gForceApp_v2.3.4-20171009.apk](../assets/downloads/gForceApp_v2.3.4-20171009.apk)
