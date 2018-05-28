@@ -8,7 +8,7 @@ May 12th,2018
 
 May 3th,2018
 
-* [Training Tool](https://github.com/oymotion/OTrain/releases/download/v0.5/OTrain_v0.5.zip)
+* [Training Tool](https://github.com/oymotion/OTrain/releases/download/v0.5.1/OTrain_v0.5.1.zip)
 
     Training tool for gForce and OHand.
 	
