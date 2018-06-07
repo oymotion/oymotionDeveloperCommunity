@@ -2,7 +2,7 @@
 
 May 12th,2018
 
-* [gForceSDK](https://github.com/oymotion/gForceSDK/releases/download/v0.5.0/gForceSDK-win-0.5.0.7z)
+* [gForceSDK](https://github.com/oymotion/gForceSDK/releases/download/V0.5.1/gForceSDK-win-0.5.1.7z)
 
     Software development kit for gForce armband.Only **windows** is supported.
 
