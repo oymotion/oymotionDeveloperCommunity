@@ -36,7 +36,7 @@ This web site(https://oymotion.github.io) is built upon [mkDocs](www.mkdocs.org)
     $ git push oymotionIO gh-pages:master
     ```
 
-> **Note:** You should never edit andy files in `oymotion.github.io` repository and
+> **Note:** You should never edit any files in `oymotion.github.io` repository and
 `gh-pages` branch  by hand otherwise you will lose your work.
 
 
