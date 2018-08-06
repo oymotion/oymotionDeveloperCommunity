@@ -18,10 +18,6 @@ Oct 11th,2017
 
     Pre-built releases of gForceApp for Android.
 
-* [sEMG Raw Data Capture Utility](../assets/downloads/RawDataCapture.zip)
-
-    Only for gForce 100 with support for raw data capturing.
-
 * [download serial port driver](../assets/downloads/PL2303-WIN7-64.zip)
 
     serial port driver for Arduino MEGA
