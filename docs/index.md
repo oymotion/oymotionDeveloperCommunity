@@ -59,14 +59,6 @@ data in quaternions or [Euler Angles][EulerAngles] from its built-in 6-axis
 
     Pre-built releases of gForceApp for Android.
 
-* [sEMG Raw Data Capture Utility][RawDataCaptureFor100]
-
-    Only for gForce 100 with support for raw data capturing.
-
-* [sEMG Raw Data Capture SDK][RawDataCaptureSDKFor100]
-
-    Only for gForce 100 with support for raw data capturing.
-	
 ### Examples
 * [gForce Examples][gForceExample]
 
@@ -103,7 +95,5 @@ data in quaternions or [Euler Angles][EulerAngles] from its built-in 6-axis
 [gForce100EmbeddedUserGuide]: ./gForceEmbeddedSuit/gForce100EmbeddedSuiteUserGuide.md
 [gForceEMGRawData]: ./gForceEMGRawData/gForceEMGRawData.md
 [gForceAPK]: ./assets/downloads/gForceApp_v2.3.4-20171009.apk
-[RawDataCaptureFor100]: ./assets/downloads/RawDataCapture.zip
-[RawDataCaptureSDKFor100]:./assets/downloads/RawDataCaptureSDK.zip
 [gForce100Manual]: ./assets/downloads/gForce100_manual_v1.1-eng.pdf
 [gForceDataProtocol]: ./gForceDataProtocol/gForceDataProtocol.md
