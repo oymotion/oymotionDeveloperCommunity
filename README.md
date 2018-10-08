@@ -16,7 +16,7 @@ This web site(https://oymotion.github.io) is built upon [mkDocs](www.mkdocs.org)
     $ mkdocs serve
     ```
 
-    Then you would be able to preview you local web site at http://localhost:8000
+    Then you would be able to preview the web page at http://localhost:8000
 
 ## How to Update web site as [oymotion](https://oymotion.github.io) owner
 
