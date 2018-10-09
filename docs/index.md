@@ -1,9 +1,3 @@
----
-layout: default
-title:  "Welcome to the OYMotion Community!"
----
-
----
 ## gForce Armband
 gForce 100 Armband is a smart wearable [Human Interface Device][HID] for
 [gesture recognition][GestureRecognition]. It recognizes gestures according
