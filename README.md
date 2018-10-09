@@ -5,7 +5,7 @@ This web site(https://oymotion.github.io) is built upon [mkDocs](www.mkdocs.org)
 
 * Install [mkDocs](http://www.mkdocs.org) 
     
-    Please reference [How to Install mkdocs](http://www.mkdocs.org/#installation)
+    Please refer to [How to Install mkdocs](http://www.mkdocs.org/#installation)
 
 * Make some changes
 
