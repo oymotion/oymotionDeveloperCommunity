@@ -1,5 +1,5 @@
 # OYMotion Community Web Site
-This web site(https://oymotion.github.io) is built upon [mkDocs](www.mkdocs.org)
+The web site(https://oymotion.github.io) is built upon [mkDocs](www.mkdocs.org)
 
 ## How to contribute
 
