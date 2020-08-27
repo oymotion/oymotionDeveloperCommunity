@@ -4,6 +4,7 @@
 July 6th, 2017
 
 ## Overview
+
 gForce 100 Armband is a smart wearable [Human Interface Device][HID] for
 [gesture recognition][GestureRecognition]. It recognizes gestures according
 to the sEMG signals of human forearms, and as well as calculates orientation
@@ -18,6 +19,7 @@ and much lower cost.
 ![gForce100Armband](./imgs/gForce100Armband.jpg)
 
 ## Turning on/off
+
 - Turn on
 
     When gForce 100 Armband is off, its green LED light will be off. To turn
@@ -41,12 +43,11 @@ and much lower cost.
 > auto-low-power mode is not implemented yet.
 
 ## Re-charging
+
 gForce 100 Armband is equipped with Li-ion battery (200mAh). The USB port on
 the main block is used for battery re-charging.
 
-During re-charging, the red light LED on the main block is on. Re-charging will
-maximally take 2 hours, and after re-charging completes, the red light LED is
-turned off.
+During re-charging, the red light LED on the main block is on. Re-charging will maximally take 2 hours, and after re-charging completes, the red light LED is turned off.
 
 **Note**:
 >gForce 100 Armband is NOT designed to work during re-charging, as this brings in
@@ -57,18 +58,16 @@ turned off.
 - After successfully connecting with a BLE central device (e.g. gForceJoint,
   gForceDongle or any other BLE central device), the green LED light flashes
   at 5HZ when any data (e.g. quaternion, gesture or raw data) switch is on.
-  If the user turns all data switches off through [gForceApp][gForceApp], the
-  green LED light will be always on.
 
 - The device will vibrate for about 100ms when a gesture is recognized.
 
 ## Instructions to Wearing and Performing Gestures
+
 To make sure gForce armband can recognize your gestures, please refer to
-[Guide to Performing Gestures][GuideToPerformingGestures] and spend several minutes
-learning and training yourself. The recognition rate can reach 95% and even higher
-after you get familiar with performing the gestures properly.
+[Guide to Performing Gestures][GuideToPerformingGestures] and spend several minutes learning and training yourself. The recognition rate can reach 95% and even higher after you get familiar with performing the gestures properly.
 
 ## Predefined Gestures
+
 The six predefined gestures are:
 * _Fist_
 * _Spread Fingers_

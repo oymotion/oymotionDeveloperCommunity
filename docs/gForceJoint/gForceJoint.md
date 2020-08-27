@@ -1,0 +1,50 @@
+# gForce Joint
+
+## Brief
+
+This document tries to guiding how one can use gForce gesture armband with Arduino.
+Before continuing, please make sure you have sufficient experience with [Arduino](https://www.arduino.cc/), and [ArduinoIDE](https://www.arduino.cc/en/Main/Software) was installed on your PC.
+
+* [What is Arduino](https://www.arduino.cc/en/Guide/Introduction)
+* [How to install ArduinoIDE](https://www.arduino.cc/en/Main/Software)
+* [Learn Arduino](https://www.arduino.cc/en/Reference/HomePage)
+
+## How to connect gForce Joint to gForce Arm band
+
+This chapter guides the steps to connect gForce Joint to Arm band. The following names are being used: gForceJoint, gForce, gForceSDKArduino, ArduinoMEGA
+
+* [What is gForce](../gForce100/gForce100UserGuide.md)
+* [What is gForceJoint](../gForceEmbeddedSuit/gForce100EmbeddedSuiteUserGuide.md)
+* [What is gForceSDKArduino](https://github.com/oymotion/gForceSDKArduino)
+* [What is ArduinoMEGA](https://www.arduino.cc/en/Main/arduinoBoardMega)
+
+![gForceAndArduino](imgs/gForceAndArduino_En.png)
+
+### Step 1: Import gForceSDKArduino  
+
+* [How to import gForceSDKArduino](https://github.com/oymotion/gForceSDKArduino)
+
+### Step 2: Test communication between gForceJoint and ArduinoMEGA
+
+![gForceJointPC](imgs/gForceJointPC_En.png)
+
+1. Wire gForceJoint with ArduinoMEGA:  in this demo case, gForceJoint is connected to MEGA’s Serial Port #2 (gForceJoint (TX) => MEGA (RX2))
+2. Open [gForceJointTest](https://github.com/oymotion/gForceSDKArduino/blob/master/examples/gForceJointTest/gForceJointTest.ino) in ArduinoIDE. Compile and upload to ArduinoMEGA.
+3. Open the Serial Port Monitor from ArduinoIDE.
+4. Set the serial port monitor with a baud rate of 115200bps.
+5. Pair and connect gForce armband to gForceJoint, perform the gestures that’s defined, check if the information printed out in the Serial Port Monitor is correct, and hence make sure the connect between gForceJoint and MEGA works.
+
+* [How to wear gForce armband?](https://oymotion.github.io/assets/downloads/gForce100_manual_v1.1-eng.pdf)  
+If a gForce-100 is used, users should follow wearing instruction and gesture strictly.
+
+* How to connect gForce with gForceJoint wirelessly?  
+  * Turn on gForce armband, the green led should flash slowly
+  * Make sure gForceJoint is powered on
+  * Put gForce armband close to gForceJoint such as within 10 cm of distance.
+  * gForce armband will automatically connect to gForceJoint. The green led should   flash much faster.
+  * If not, make sure gForceJoint is not connected to other gForce armband. Only one armband is allowed. And, make sure, power is on.
+
+* One should make sure gForceJoint works with ArduinoMEGA before continuing. Possible mistakes are:
+  * Wiring mistakes between gForceJoint and ArduinoMEAG
+  * gForce doesn’t connect with gForceJoint because distance. When connecting, gForce armband and gForceJoint HAVE to be within a short distance as close as possible such as 10 cm.
+  * User doesn’t follow armband wearing and gestures.

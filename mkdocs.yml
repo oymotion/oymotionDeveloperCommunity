@@ -1,15 +1,18 @@
 site_name: OYMotion
-site_author: KaiZhou
-copyright: Copyright© 2017 OYMotion Technologies,Inc.All rights reserved. 
+site_author: Sun shichao
+copyright: Copyright© 2020 OYMotion Technologies,Inc.All rights reserved. 
 pages:
   - Home: index.md
-  - Document:
+  - Products:
     - gForce100: ./gForce100/gForce100UserGuide.md
-    - gForce Embedded Suit: ./gForceEmbeddedSuit/gForce100EmbeddedSuiteUserGuide.md
-    - gForceEMG: ./gForceEMGRawData/gForceEMGRawData.md
-    - gForceExample:
-      - LobotControl: ./gForceExample/LobotControlBygForce/LobotControlBygForce.md
-    - gForceNeuron: ./gForceNeuron/gForceNeuronUserGuide.md
-    - gForceDataProtocol: ./gForceDataProtocol/gForceDataProtocol.md
-  - OpenSoftware: ./openSoftwareList/openSoftware.md
-  - Download: ./downloadList/Download.md
+    - gForceBLE: ./gForceBLE/gForceBLE.md
+    - gForcePro: ./gForcePRO/gForcePRO.md
+    - gForceJoint: ./gForceJoint/gForceJoint.md
+
+  - SDK:
+      - SDK List: ./gForceSDK/SDKList.md
+      - SDK Instructions: ./gForceSDK/gForceSDK.md
+
+  - APPs: ./APPs/Apps.md
+  
+site_favicon: image/favicon.ico
