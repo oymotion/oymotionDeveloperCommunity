@@ -6,7 +6,6 @@ pages:
   - Products:
     - gForce100: ./gForce100/gForce100UserGuide.md
     - gForcePro: ./gForcePro/gForcePro.md
-    - gForceBLE: ./gForcePro/gForceBLE.md
     - gForceJoint: ./gForceJoint/gForceJoint.md
 
   - SDK:
@@ -15,7 +14,8 @@ pages:
 
   - APPs: 
       - OTrain: ./APPs/OTrain.md
-      - gForceApp: ./APPs/gForceApp.md
+      - gForceApp for gForce100/gForcePro: ./APPs/gForceAppLegacy.md
+      - gForceApp for gForcePro+: ./APPs/gForceApp.md
       - oym8CHWave: ./APPs/oym8CHWave.md
-  
+
 site_favicon: image/favicon.ico

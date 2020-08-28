@@ -76,7 +76,7 @@ The six predefined gestures are:
 * _Pinch_
 * _Shoot_
 
-Note:
+**Note**:
 > When both your arm and hand are at a rest state, it will be recognized as a
 > '_Relax_' gesture.
 

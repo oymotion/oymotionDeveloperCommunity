@@ -1,28 +1,32 @@
-# OTrain for gForceBLE
+# OTrain for gForcePro
 
 ***
 
-* OTrain is used to Connect to gForcePro/gForceBLE, Capture EMG raw data, Generate model and Update to gForcePro/gForceBLE
+* OTrain is used to Connect to gForcePro, Capture EMG raw data, Generate model and Update to gForcePro
 * Gestures are Customizable
-* After gForcePro/gForceBLE is updated with trained model, it works off-line
+* After gForcePro is updated with trained model, it works off-line
 
-## Hardware required:
+***
 
-* gForcePro/gForceBLE
+## Hardware required
+
+* **gForcePro**
 
 ![Armband.png](./imgs/Armband.png)
 
-* USB Dongle
+* **USB Dongle**
 
 ![OtrainNeed1.png](./imgs/OtrainNeed1.png)
 
-<br>
+***
 
 ## Screenshots
 
 ![Otrainsreenshot1](./imgs/Otrainsreenshot1.png)
 ![Otrainsreenshot3.png](./imgs/Otrainsreenshot3.png)
 ![Otrainsreenshot2.png](./imgs/Otrainsreenshot2.png)
+
+***
 
 ## Download
 

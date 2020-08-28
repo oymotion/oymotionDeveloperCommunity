@@ -14,10 +14,9 @@
 |gForceArduino|GForceAdapter::GetGForceData(...)|GForceAdapter::GetGForceData(...)|GForceAdapter::GetGForceData(...)|GForceAdapter::GetGForceData(...)\*\*\*|NA|
 |gForceEmbedded|GForceAdapter::GetGForceData(...)|GForceAdapter::GetGForceData(...)|GForceAdapter::GetGForceData(...)|GForceAdapter::GetGForceData(...)\*\*\*|NA|
 
+**Note**:
 \* : Includes 10 data types
-
 \*\* : In subclass of HubListener
-
 \*\*\* : Only EMG data supported.
 
 ***
@@ -171,5 +170,5 @@ public override void onExtendedDeviceData(Device device, Device.DataType type, b
 }
 ```
 
-*note* : Data transfers should be off when configuring data types and starting/stoping data notification.
+**Note**: Data transfers should be off when configuring data types and starting/stoping data notification.
 

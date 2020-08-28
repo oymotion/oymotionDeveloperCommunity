@@ -1,19 +1,25 @@
-<font size=6> Welcome to oymotion.github.io </font>
+# Welcome to oymotion.github.io
 
+***
 
-##  Products
+## Products
 
 * [gForce100](./gForce100/gForce100UserGuide.md)
-* [gForceBLE](./gForcePro/gForceBLE.md)
+* [gForcePro/Pro+](./gForcePro/gForcePro.md)
 * [gForceJoint](./gForceJoint/gForceJoint.md)
+
+***
 
 ## SDK
 
 * [SDK List](./gForceSDK/SDKList.md)
 * [SDK Manual](./gForceSDK/gForceSDK.md)
 
+***
+
 ## APPs
 
 * [OTrain](./APPs/OTrain.md)
-* [gForceApp for gForcePro](./APPs/gForceApp.md)
-* [Oymotion 8 channel wave](./APPs/oym8CHWave.md)
+* [gForceApp for gForce100/gForcePro](./APPs/gForceAppLegacy.md)
+* [gForceApp for gForcePro+](./APPs/gForceApp.md)
+* [oym8CHWave 8 channel wave ploter](./APPs/oym8CHWave.md)

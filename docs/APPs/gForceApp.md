@@ -1,16 +1,18 @@
-# gForce App for gForcePro
+# gForce App for gForcePro+
 
 ***
 
-gForce App integrates gForce control, data display, gesture training, training model cloud upload and download functions, all in one App.
+gForce App integrates gForce control, IMU/EMG data display, gesture training, training model uploading and downloading, all in one App.
 
-<br>
+***
 
 ## Screenshots
 
 ![gforceAPP2.jpg](./imgs/gforceAPP2.jpg)
 ![gforceAPP1.jpg](./imgs/gforceAPP1.jpg)
 
+***
+
 ## Download
 
-[click here](http://gforce-portal.oymotion.com/)
+[Click here](http://gforce-portal.oymotion.com/) to download gForce APP
