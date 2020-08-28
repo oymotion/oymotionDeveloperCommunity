@@ -15,8 +15,11 @@
 |gForceEmbedded|GForceAdapter::GetGForceData(...)|GForceAdapter::GetGForceData(...)|GForceAdapter::GetGForceData(...)|GForceAdapter::GetGForceData(...)\*\*\*|NA|
 
 **Note**:
+
 \* : Includes 10 data types
+
 \*\* : In subclass of HubListener
+
 \*\*\* : Only EMG data supported.
 
 ***
