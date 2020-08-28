@@ -1,7 +1,5 @@
 # oym8CHWave
 
-***
-
 Open source EMG data manipulation tool for gForcePro/gForcePro+.
 Displays waveforms according to EMG data from gForcePro. Sends sound on/off bit flags to oym8CHWaveArduino if oym8CHWaveArduino is connected.
 

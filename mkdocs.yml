@@ -5,7 +5,7 @@ pages:
   - Home: index.md
   - Products:
     - gForce100: ./gForce100/gForce100UserGuide.md
-    - gForcePro: ./gForcePro/gForcePro.md
+    - gForcePr/gForcePro+: ./gForcePro/gForcePro.md
     - gForceJoint: ./gForceJoint/gForceJoint.md
 
   - SDK:
