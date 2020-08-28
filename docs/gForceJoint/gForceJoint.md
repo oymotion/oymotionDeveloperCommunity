@@ -9,7 +9,7 @@ Before continuing, please make sure you have sufficient experience with [Arduino
 * [How to install ArduinoIDE](https://www.arduino.cc/en/Main/Software)
 * [Learn Arduino](https://www.arduino.cc/en/Reference/HomePage)
 
-## How to connect gForce Joint to gForce Arm band
+## gForce Joint Usage
 
 This chapter guides the steps to connect gForce Joint to Arm band. The following names are being used: gForceJoint, gForce, gForceSDKArduino, ArduinoMEGA
 

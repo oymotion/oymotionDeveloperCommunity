@@ -85,4 +85,4 @@ Note:
 [EulerAngles]: https://en.wikipedia.org/wiki/Euler_angles
 [IMU]: https://en.wikipedia.org/wiki/Inertial_measurement_unit
 [GuideToPerformingGestures]: https://www.youtube.com/watch?v=wBsYJf0wrkk
-[gForceApp]: https://github.com/oymotion/gForceApp
+[gForceApp]: https://oymotion.github.io/assets/downloads/gForceApp_v2.3.4-20171009.apk

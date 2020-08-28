@@ -1,5 +1,5 @@
 
-# gForce SDK Instructions
+# gForce SDK Manual
 
 ***
 

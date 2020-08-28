@@ -1,93 +1,19 @@
-## gForce Armband
-gForce 100 Armband is a smart wearable [Human Interface Device][HID] for
-[gesture recognition][GestureRecognition]. It recognizes gestures according
-to the sEMG signals of human forearms, and as well as calculates orientation
-data in quaternions or [Euler Angles][EulerAngles] from its built-in 6-axis
-[IMU][IMU] and tri-axis [magnetometer][magnetometer].
+<font size=6> Welcome to oymotion.github.io </font>
 
-### Documents
-* [gForce 100 Manual][gForce100Manual] &
-  [gForce 100 User Guide][gForce100UserGuide]
 
-  The User Guide provides more detailed information than the Manual.
+##  Products
 
-* [gForce 100 Embedded Suite User Guide][gForce100EmbeddedUserGuide]
+* [gForce100](./gForce100/gForce100UserGuide.md)
+* [gForceBLE](./gForcePro/gForceBLE.md)
+* [gForceJoint](./gForceJoint/gForceJoint.md)
 
-  Provides guide of using gForce 100 in embedded devices such as robots and
-  prosthetics.
+## SDK
 
-* [gForce Data Protocol][gForceDataProtocol]
+* [SDK List](./gForceSDK/SDKList.md)
+* [SDK Manual](./gForceSDK/gForceSDK.md)
 
-  The specification of gForce Data Protocol defines the details of gForce
-  interacting with host computers of PC, AR and VR.
+## APPs
 
-* [gForce EMG Raw Data][gForceEMGRawData]
-
-  Provides more information about using EMG raw data.
-
-### Open Source Software
-* [gForce SDK for Arduino][gForceSDKArduino]
-
-  The open source library with example code to illustrate how to connnect
-  gForce to Arduino-alike devices.
-
-* [gForce Data Protocol Sample][gForceDataProtocolSample]
-
-  An open source simple example developed for Android to illustrate
-  [gForce Data Protocol](doc/gForceDataProtocol).
-
-* [gForce SDK][gForceSDK]
-
-  The SDK for Windows and Android with Unity support.   
-  Internal testing, coming soon......
-
-* [gForceApp][gForceApp]
-
-  The **hub** application for other applications to interact with
-  gForce. It also provides utilities for users setting, firmware upgrading and
-  diagnosing gForce. Released APK is open for downloading.
-  Internal testing, coming soon......
-
-### Downloads
-* [gForceApp for Android  gForceApp_v2.3.4-20171009.apk][gForceAPK]
-
-    Pre-built releases of gForceApp for Android.
-
-### Examples
-* [gForce Examples][gForceExample]
-
-  The collection of gForce Armband application examples, like controlling a mechanical hand.
-
----
-## gForce Neuron
-### Documents
-* [gForce Neuron User Guide](doc/gForceNeuronUserGuide)
-
-### Open Source Software
-* [sEMG Filters Library][EMGFilters]
-
-  Provides some basic filter functions for sEMG digital signals.
-
-### Video tutorials
-* [How to make standard gesture](http://video.tudou.com/v/XMjQ2NjgxNzE1Mg)
-* [How to assemble gForce](http://v.qq.com/x/page/f039073hsc5.html)
-* [How to use gForce](http://v.qq.com/x/page/i03876az03e.html)
-
-[HID]: https://en.wikipedia.org/wiki/Human_interface_device
-[GestureRecognition]: https://en.wikipedia.org/wiki/Gesture_recognition
-[EulerAngles]: https://en.wikipedia.org/wiki/Euler_angles
-[IMU]: https://en.wikipedia.org/wiki/Inertial_measurement_unit
-[magnetometer]:https://en.wikipedia.org/wiki/Magnetometer
-[gForceSDKArduino]: https://github.com/oymotion/gForceSDKArduino
-[gForceDataProtocolSample]: https://github.com/oymotion/gForceDataProtocolSample
-[EMGFilters]: https://github.com/oymotion/EMGFilters
-[gForceSDK]: https://github.com/oymotion/gForceSDK
-[gForceApp]: https://github.com/oymotion/gForceApp
-[gForceAppForAndroid]: https://github.com/oymotion/gForceApp/releases
-[gForceExample]: https://github.com/oymotion/gForceExample
-[gForce100UserGuide]: ./gForce100/gForce100UserGuide.md
-[gForce100EmbeddedUserGuide]: ./gForceEmbeddedSuit/gForce100EmbeddedSuiteUserGuide.md
-[gForceEMGRawData]: ./gForceEMGRawData/gForceEMGRawData.md
-[gForceAPK]: ./assets/downloads/gForceApp_v2.3.4-20171009.apk
-[gForce100Manual]: ./assets/downloads/gForce100_manual_v1.1-eng.pdf
-[gForceDataProtocol]: ./gForceDataProtocol/gForceDataProtocol.md
+* [OTrain](./APPs/OTrain.md)
+* [gForceApp for gForcePro](./APPs/gForceApp.md)
+* [Oymotion 8 channel wave](./APPs/oym8CHWave.md)

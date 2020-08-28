@@ -5,14 +5,17 @@ pages:
   - Home: index.md
   - Products:
     - gForce100: ./gForce100/gForce100UserGuide.md
-    - gForceBLE: ./gForceBLE/gForceBLE.md
-    - gForcePro: ./gForcePRO/gForcePRO.md
+    - gForcePro: ./gForcePro/gForcePro.md
+    - gForceBLE: ./gForcePro/gForceBLE.md
     - gForceJoint: ./gForceJoint/gForceJoint.md
 
   - SDK:
       - SDK List: ./gForceSDK/SDKList.md
-      - SDK Instructions: ./gForceSDK/gForceSDK.md
+      - SDK Manual: ./gForceSDK/gForceSDK.md
 
-  - APPs: ./APPs/Apps.md
+  - APPs: 
+      - OTrain: ./APPs/OTrain.md
+      - gForceApp: ./APPs/gForceApp.md
+      - oym8CHWave: ./APPs/oym8CHWave.md
   
 site_favicon: image/favicon.ico
