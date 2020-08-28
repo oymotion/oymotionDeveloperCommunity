@@ -14,7 +14,7 @@ Before continuing, please make sure you have sufficient experience with [Arduino
 This chapter guides the steps to connect gForce Joint to Arm band. The following names are being used: gForceJoint, gForce, gForceSDKArduino, ArduinoMEGA
 
 * [What is gForce](../gForce100/gForce100UserGuide.md)
-* [What is gForceJoint](../gForceEmbeddedSuit/gForce100EmbeddedSuiteUserGuide.md)
+* [What is gForceJoint](https://github.com/oymotion/gForceSDKEmbedded)
 * [What is gForceSDKArduino](https://github.com/oymotion/gForceSDKArduino)
 * [What is ArduinoMEGA](https://www.arduino.cc/en/Main/arduinoBoardMega)
 
