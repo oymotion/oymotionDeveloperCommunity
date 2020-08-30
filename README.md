@@ -26,7 +26,7 @@ The web site(https://oymotion.github.io) is built upon [mkDocs](www.mkdocs.org)
 
 * Deploying Docs
 
-    ```
+```BASH
     $ git clone https://github.com/oymotion/oymotionDeveloperCommunity.git
     $ git remote add oymotionIO https://github.com/oymotion/oymotion.github.io.git
     $ cd oymotionDeveloperCommunity
@@ -34,7 +34,7 @@ The web site(https://oymotion.github.io) is built upon [mkDocs](www.mkdocs.org)
     $ mkdocs gh-deploy
     $ git checkout gh-pages
     $ git push oymotionIO gh-pages:master
-    ```
+```
 
 > **Note:** You should never edit any files in `oymotion.github.io` repository and
 `gh-pages` branch  by hand otherwise you will lose your work.

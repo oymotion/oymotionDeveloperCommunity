@@ -30,7 +30,6 @@ Callback will be invoked (e.g., `onExtendedDeviceData(...)` in subclass of HubLi
 
 Data format:
 
-
 |Notification Data Type|Data Packet Length|First Byte Value|Data Content\*|Comment|
 |:-|:-|:-|:-|:-|
 |Acceletor|13|0x01 (NTF_ACC_DATA)|Acceletor_X(4 Byte long), Acceletor_Y, Acceletor_Z|Accelerate speed of axis x,y and z |
@@ -70,7 +69,7 @@ Call `DeviceSetting::setEMGRawDataConfig(...);` to configure Emg. First paramete
 
 Call `DeviceSetting::setDataNotifySwitch(...)` to open EMG raw. Set first parameter as DeviceSetting::DNF_EMG_RAW
 
-4\. Extract the data of acceleration
+4\. Extract the data of EMG, etc.
 
 ```C++
 void onExtendedDeviceData(SPDEVICE device, DeviceDataType dataType, gfsPtr<const vector<GF_UINT8>> data) override
@@ -78,8 +77,8 @@ void onExtendedDeviceData(SPDEVICE device, DeviceDataType dataType, gfsPtr<const
   switch (dataType) {
   case DeviceDataType::DDT_EMGRAW:
       auto ptr = data->data();
-         
-      for (int i = 0; i < 128; i++)
+
+      for (int i = 0; i < 128/*depends on setting*/; i++)
       {
         //for 8bpp mode
         printf("Emg data [%d] = %u\n", i, *(reinterpret_cast<const uint8_t*>(ptr++)));
@@ -106,8 +105,10 @@ void onExtendedDeviceData(SPDEVICE device, DeviceDataType dataType, gfsPtr<const
 ### Python
 
 ```python
+DATA_LEN = 128
+
 def ondata(data):
-    if data[0] == NotifDataType['DNF_EMG_RAW'] and len(data) == 129:
+    if data[0] == NotifDataType['DNF_EMG_RAW'] and len(data) == DATA_LEN + 1:
             # Data for EMG CH0~CHn repeatly.
             # Resolution set in setEmgRawDataConfig:
             #   8: one byte for one channel
@@ -115,14 +116,14 @@ def ondata(data):
             # eg. 8bpp mode, data[1] = channel[0], data[2] = channel[1], ... data[8] = channel[7]
             #                data[9] = channel[0] and so on
             # eg. 12bpp mode, {data[2], data[1]} = channel[0], {data[4], data[3]} = channel[1] and so on
-            for i in range(1, 129):
+            for i in range(1, DATA_LEN):
                 print(data[i])
 
 def set_cmd_cb(resp):
     print('Command result: {}'.format(resp))
 
 GF = GForceProfile()
-GF.setEmgRawDataConfig(sampRate = 650, channelMask = 0xFF, dataLen = 128, resolution = 8, cb = set_cmd_cb, timeout = 1000)
+GF.setEmgRawDataConfig(sampRate = 650, channelMask = 0xFF, dataLen = DATA_LEN, resolution = 8, cb = set_cmd_cb, timeout = 1000)
 GF.setDataNotifSwitch(DataNotifFlags['DNF_EMG_RAW'], set_cmd_cb, timeout = 1000)
 GF.startDataNotification(ondata)
 
@@ -174,4 +175,3 @@ public override void onExtendedDeviceData(Device device, Device.DataType type, b
 ```
 
 **Note**: Data transfers should be off when configuring data types and starting/stoping data notification.
-

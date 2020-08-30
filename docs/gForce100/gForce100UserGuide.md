@@ -69,12 +69,13 @@ To make sure gForce armband can recognize your gestures, please refer to
 ## Predefined Gestures
 
 The six predefined gestures are:
-* _Fist_
-* _Spread Fingers_
-* _Wave In_
-* _Wave Out_
-* _Pinch_
-* _Shoot_
+
+- _Fist_
+- _Spread Fingers_
+- _Wave In_
+- _Wave Out_
+- _Pinch_
+- _Shoot_
 
 **Note**:
 > When both your arm and hand are at a rest state, it will be recognized as a

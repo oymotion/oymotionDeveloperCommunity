@@ -34,17 +34,23 @@ This chapter guides the steps to connect gForce Joint to Arm band. The following
 4. Set the serial port monitor with a baud rate of 115200bps.
 5. Pair and connect gForce armband to gForceJoint, perform the gestures that’s defined, check if the information printed out in the Serial Port Monitor is correct, and hence make sure the connect between gForceJoint and MEGA works.
 
-* [How to wear gForce armband?](https://oymotion.github.io/assets/downloads/gForce100_manual_v1.1-eng.pdf)  
-If a gForce-100 is used, users should follow wearing instruction and gesture strictly.
+## Q&A
 
-* How to connect gForce with gForceJoint wirelessly?  
-  * Turn on gForce armband, the green led should flash slowly
-  * Make sure gForceJoint is powered on
-  * Put gForce armband close to gForceJoint such as within 10 cm of distance.
-  * gForce armband will automatically connect to gForceJoint. The green led should   flash much faster.
-  * If not, make sure gForceJoint is not connected to other gForce armband. Only one armband is allowed. And, make sure, power is on.
+> How to wear gForce armband?
 
-* One should make sure gForceJoint works with ArduinoMEGA before continuing. Possible mistakes are:
-  * Wiring mistakes between gForceJoint and ArduinoMEAG
-  * gForce doesn’t connect with gForceJoint because distance. When connecting, gForce armband and gForceJoint HAVE to be within a short distance as close as possible such as 10 cm.
-  * User doesn’t follow armband wearing and gestures.
+If a gForce-100 is used, users should follow [wearing instruction](https://oymotion.github.io/assets/downloads/gForce100_manual_v1.1-eng.pdf) and gesture strictly.
+
+> How to connect gForce with gForceJoint wirelessly?
+
+1. Turn on gForce armband, the green led should flash slowly
+1. Make sure gForceJoint is powered on
+1. Put gForce armband close to gForceJoint such as within 10 cm of distance.
+1. gForce armband will automatically connect to gForceJoint. The green led should   flash much faster.
+1. If not, make sure gForceJoint is not connected to other gForce armband. Only one armband is allowed. And, make sure, power is on.
+
+**Note**:
+One should make sure gForceJoint works with ArduinoMEGA before continuing. Possible mistakes are:
+
+* Wiring mistakes between gForceJoint and ArduinoMEAG
+* gForce doesn’t connect with gForceJoint because distance. When connecting, gForce armband and gForceJoint HAVE to be within a short distance as close as possible such as 10 cm.
+* User doesn’t follow armband wearing and gestures.

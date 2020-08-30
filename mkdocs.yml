@@ -1,7 +1,7 @@
 site_name: OYMotion
 site_author: Sun shichao
 copyright: Copyright© 2020 OYMotion Technologies,Inc.All rights reserved. 
-pages:
+nav:
   - Home: index.md
   - Products:
     - gForce100: ./gForce100/gForce100UserGuide.md
