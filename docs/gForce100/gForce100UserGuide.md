@@ -3,6 +3,8 @@
 
 July 6th, 2017
 
+***
+
 ## Overview
 
 gForce 100 Armband is a smart wearable [Human Interface Device][HID] for

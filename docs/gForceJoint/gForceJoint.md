@@ -1,5 +1,9 @@
 # gForce Joint
 
+August 28th, 2020
+
+***
+
 ## Brief
 
 This document tries to guiding how one can use gForce gesture armband with Arduino.
