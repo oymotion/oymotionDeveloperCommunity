@@ -1,7 +1,7 @@
 # OTrain for gForcePro
 
-* OTrain is used to Connect to gForcePro, Capture EMG raw data, Generate model and Update to gForcePro
-* Gestures are Customizable
+* OTrain is used to capture EMG data from gForcePro, train gesture model and download model to gForcePro
+* Gestures are customizable
 * After gForcePro is updated with trained model, it works off-line
 
 ***

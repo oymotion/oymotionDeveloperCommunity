@@ -72,12 +72,12 @@ During re-charging, the red light LED on the main block is on. Re-charging will 
 
 ## Gesture Training
 
-* **gForcePro**
+- **gForcePro**
   
     gForcePro supports user gesture training with help of OTrain desktop APP.
     Refer to [OTrain](../APPs/OTrain.md) for more details.
 
-* **gForcePro+**
+- **gForcePro+**
   
     gForcePro+ uses gForce APP to train user gestures.
     Refer to [gForce APP](../APPs/gForceApp.md) for more details.
@@ -86,12 +86,12 @@ During re-charging, the red light LED on the main block is on. Re-charging will 
 
 ## Fetch EMG/Qurternion/... Data
 
-* **Via SDK**
+- **Via SDK**
   
     Use [gForceSDKCXX](https://github.com/oymotion/gForceSDKCXX), [gForceSDKCSharp](https://github.com/oymotion/gForceSDKCSharp), [gForceSDKPython](https://github.com/oymotion/gForceSDKPython) to fetch EMG data, etc.
     See [SDK list](../gForceSDK/SDKList.md) & [gForceSDK manual](../gForceSDK/gForceSDK.md) for help.
 
-* **Via oym8CHWave**
+- **Via oym8CHWave**
   
     Refer to [oym8CHWave](../APPs/oym8CHWave.md) for more details.
 

@@ -3,6 +3,12 @@ site_author: Sun shichao
 copyright: Copyright© 2020 OYMotion Technologies,Inc.All rights reserved. 
 theme:
   name: material
+  palette:
+    primary: 'orange'
+    accent: 'deep orange'
+  logo: 'assets/images/logo.png'
+  favicon: 'assets/images/favicon.ico'
+
 nav:
   - Home: index.md
   - Products:
@@ -19,5 +25,3 @@ nav:
       - gForceApp for gForce100/gForcePro: ./APPs/gForceAppLegacy.md
       - gForceApp for gForcePro+: ./APPs/gForceApp.md
       - oym8CHWave: ./APPs/oym8CHWave.md
-
-site_favicon: image/favicon.ico
