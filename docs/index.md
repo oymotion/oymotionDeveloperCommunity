@@ -21,5 +21,5 @@
 
 * [OTrain](./APPs/OTrain.md)
 * [gForceApp for gForce100/gForcePro](./APPs/gForceAppLegacy.md)
-* [gForceApp for gForcePro+](./APPs/gForceApp.md)
+* [gForceApp for gForce200/gForcePro+](./APPs/gForceApp.md)
 * [oym8CHWave 8 channel wave ploter](./APPs/oym8CHWave.md)
