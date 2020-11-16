@@ -12,7 +12,7 @@ theme:
 nav:
   - Home: index.md
   - Products:
-    - gForce100: ./gForce100/gForce100UserGuide.md
+    - gForce200: ./gForce200/gForce200UserGuide.md
     - gForcePro/gForcePro+: ./gForcePro/gForcePro.md
     - gForceJoint: ./gForceJoint/gForceJoint.md
 
@@ -23,5 +23,5 @@ nav:
   - APPs: 
       - OTrain: ./APPs/OTrain.md
       - gForceApp for gForce100/gForcePro: ./APPs/gForceAppLegacy.md
-      - gForceApp for gForcePro+: ./APPs/gForceApp.md
+      - gForceApp for gForce200/gForcePro+: ./APPs/gForceApp.md
       - oym8CHWave: ./APPs/oym8CHWave.md

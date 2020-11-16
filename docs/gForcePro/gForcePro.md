@@ -19,26 +19,30 @@ and much lower cost.
 
 ![gForcePro/gForcePro+ Armband](./imgs/Armband.png)
 
+**Note**:
+> gForcePro is discontinued. For new purchase orders, please choose gForcePro+.
+
 ***
 
 ## Turning on/off
 
 - Turn on
 
-    When gForcePro/gForcePro+ Armband is off, its green LED light will be off. To turn
-    it on, simply press the button in the middle of its main block.
+    When gForce 200 Armband is off, its green LED light will be off. To turn
+    it on, simply press and hold the button in the middle of its main block for
+    about 1 second til the green LED is turned on.
 
-    When gForcePro/gForcePro+ Armband starts to power on, it will vibrate for about 0.5
+    When gForce 200 Armband starts to power on, it will vibrate for about 0.2
     second. Once it is successfully powered up, the green LED light flashes
-    at a frequency of 4HZ with 2 seconds on and 2 seconds off.
+    at a frequency of 1/4HZ with 2 seconds on and 2 seconds off.
 
     Make sure the armband has sufficient power, otherwise re-charge it with
     a micro USB line.
 
 - Turn off
 
-    When gForcePro/gForcePro+ Armband is on, pressing and holding the button for about 5
-    seconds and then releasing will turn it off. The green LED being off
+    When gForcePro/gForcePro+ Armband is on, pressing and holding the button for
+    about 5 seconds and then releasing will turn it off. The green LED being off
     indicates the device has been turned off successfully.
 
 **Note**:
