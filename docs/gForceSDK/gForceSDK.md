@@ -108,7 +108,7 @@ void onExtendedDeviceData(SPDEVICE device, DeviceDataType dataType, gfsPtr<const
 DATA_LEN = 128
 
 def ondata(data):
-    if data[0] == NotifDataType['DNF_EMG_RAW'] and len(data) == DATA_LEN + 1:
+    if data[0] == NotifDataType['NTF_EMG_ADC_DATA'] and len(data) == DATA_LEN + 1:
             # Data for EMG CH0~CHn repeatly.
             # Resolution set in setEmgRawDataConfig:
             #   8: one byte for one channel
