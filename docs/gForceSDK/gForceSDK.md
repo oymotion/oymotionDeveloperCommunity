@@ -74,11 +74,11 @@ Call `DeviceSetting::setDataNotifySwitch(...)` to open EMG raw. Set first parame
 ```C++
 void onExtendedDeviceData(SPDEVICE device, DeviceDataType dataType, gfsPtr<const vector<GF_UINT8>> data) override
 {
+  auto ptr = data->data();
+
   switch (dataType) {
   case DeviceDataType::DDT_EMGRAW:
-      auto ptr = data->data();
-
-      for (int i = 0; i < 128/*depends on setting*/; i++)
+      for (size_t i = 0; i < data->size(); i++)
       {
         //for 8bpp mode
         printf("Emg data [%d] = %u\n", i, *(reinterpret_cast<const uint8_t*>(ptr++)));
