@@ -20,9 +20,9 @@
 
 ***
 
-## gForceSDK Unity for Windows
+## gForceSDK for Unity
 
-[gForceSDK Unity](https://github.com/oymotion/gForceSDKUnity) include Unity3D examples using OYMotion arm, gForce100/gForcePro/gForcePro+, gloves and OYMotion devices with raw data enabled(for gForcePro/gForcePro+ only).
+[gforceu3d](https://github.com/oymotion/gforceu3d) includes Unity3D example for using OYMotion devices, e.g., gForce200, gForcePro, gForceOct, gFroceDual, gForceDuo, ORehabArm, ORehabLeg, etc.
 
 ***
 

@@ -42,7 +42,7 @@ This chapter guides the steps to connect gForce Joint to Arm band. The following
 
 > How to wear gForce armband?
 
-If a gForce-100 is used, users should follow [wearing instruction](https://oymotion.github.io/assets/downloads/gForce100_manual_v1.1-eng.pdf) and gesture strictly.
+If a gForce-100/gForce-200 is used, users should follow [wearing instruction](https://oymotion.github.io/assets/downloads/gForce100_manual_v1.1-eng.pdf) and gesture strictly.
 
 > How to connect gForce with gForceJoint wirelessly?
 

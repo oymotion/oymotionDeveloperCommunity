@@ -32,9 +32,9 @@ Data format:
 
 |Notification Data Type|Data Packet Length|First Byte Value|Data Content\*|Comment|
 |:-|:-|:-|:-|:-|
-|Acceletor|13|0x01 (NTF_ACC_DATA)|Acceletor_X(4 Byte long), Acceletor_Y, Acceletor_Z|Accelerate speed of axis x,y and z |
-|Gyroscope|13|0x02 (NTF_GYO_DATA)|Gyroscope_X(4 Byte long), Gyroscope_Y, Gyroscope_Z||
-|Magnetometer|13|0x03 (NTF_MAG_DATA)|Gyroscope_X(4 Byte long), Compass_Y, Compass_Z||
+|Acceletor|13|0x01 (NTF_ACC_DATA)|Acceletor_X(4 Byte long), Acceletor_Y, Acceletor_Z|Accelerate speed of axis x,y and z in q15 format. Devide it by 65536.0f to get real float value.|
+|Gyroscope|13|0x02 (NTF_GYRO_DATA)|Gyroscope_X(4 Byte long), Gyroscope_Y, Gyroscope_Z|Gyro of axis x,y and z in q15 format. Devide it by 65536.0f to get real float value.|
+|Magnetometer|13|0x03 (NTF_MAG_DATA)|Gyroscope_X(4 Byte long), Compass_Y, Compass_Z|Magneto data of axis x,y and z in q15 format. Devide it by 65536.0f to get real float value.|
 |Euler Angle|13|0x04 (NTF_EULER_DATA)|Pitch(4 Byte float), Roll, Yaw|Euler angle data is in degree. Pitch and Yaw is in the range of [-180, 180], Roll is in the range of [-90, 90]|
 |Quaternion|17|0x05 (NTF_QUAT_FLOAT_DATA)|Quaternion_W(4 Byte float), Quaternion_X, Quaternion_Y, Quaternion_Z||
 |Rotation Matrix|37|0x06 (NTF_ROTA_DATA)|Rot[0][0], Rot[0][1], Rot[0][2], Rot[1][0],...|3*3 Rotation matrix of data type long, leading 3 4-bytes integer represent the first row of matrix and so on|

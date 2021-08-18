@@ -1,20 +1,27 @@
 # OYMotion Community Web Site
+
 The web site(https://oymotion.github.io) is built upon [mkDocs](www.mkdocs.org)
 
 ## How to contribute
 
-* Install [mkDocs](http://www.mkdocs.org) 
-    
+* Install [mkDocs](http://www.mkdocs.org)
+
     Please refer to [How to Install mkdocs](http://www.mkdocs.org/#installation)
+
+* Install required theme
+
+```BASH
+    pip install mkdocs-material
+```
 
 * Make some changes
 
-    ```
+```BASH
     $ git clone https://github.com/oymotion/oymotionDeveloperCommunity.git
     $ cd oymotionDeveloperCommunity
     $ ...(make some changes)
     $ mkdocs serve
-    ```
+```
 
     Then you would be able to preview the web page at http://localhost:8000
 
