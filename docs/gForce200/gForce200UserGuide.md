@@ -84,6 +84,10 @@ The six predefined gestures are:
 > When both your arm and hand are at a rest state, it will be recognized as a
 > '_Relax_' gesture.
 
+## User Guide
+
+[Click here](../assets/downloads/gForce-EMG-ARMBAND-User-Guide-202108.pdf) for gForce200 user guide in PDF format.
+
 [HID]: https://en.wikipedia.org/wiki/Human_interface_device
 [GestureRecognition]: https://en.wikipedia.org/wiki/Gesture_recognition
 [EulerAngles]: https://en.wikipedia.org/wiki/Euler_angles

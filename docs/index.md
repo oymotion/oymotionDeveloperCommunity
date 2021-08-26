@@ -5,7 +5,7 @@
 ## Products
 
 * [gForce200](./gForce200/gForce200UserGuide.md)
-* [gForcePro/Pro+](./gForcePro/gForcePro.md)
+* [gForcePro/Pro+/Oct](./gForcePro/gForcePro.md)
 * [gForceJoint](./gForceJoint/gForceJoint.md)
 
 ***

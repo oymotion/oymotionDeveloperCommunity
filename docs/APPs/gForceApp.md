@@ -13,4 +13,5 @@ gForce App integrates gForce control, IMU/EMG data display, gesture training, tr
 
 ## Download
 
-[Click here](http://gforce-portal.oymotion.com/) to download gForce APP
+[Click here](http://gforce-portal.oymotion.com/) to download gForce APP.
+[Click here](../assets/downloads/gForceAPP-User-Guide-202108.pdf) for gForceAPP user guide.
