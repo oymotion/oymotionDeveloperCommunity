@@ -1,7 +1,7 @@
 
 # gForcePro/gForcePro+ Armband and gForceOct Module User Guide
 
-August 28th, 2020
+August 26th, 2021
 
 ***
 

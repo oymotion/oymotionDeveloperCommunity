@@ -1,4 +1,4 @@
-# gForce App for gForcePro+
+# gForce App for gForce200/gForcePro+/gForceOct
 
 gForce App integrates gForce control, IMU/EMG data display, gesture training, training model uploading and downloading, all in one App.
 
