@@ -1,4 +1,4 @@
-# Welcome to Developper Community of OYMotion
+# Welcome to Developer Community of OYMotion
 
 ***
 
@@ -12,8 +12,8 @@
 
 ## SDK
 
-* [SDK List](./gForceSDK/SDKList.md)
-* [SDK Manual](./gForceSDK/gForceSDK.md)
+* [SDK List](./SDK/SDKList.md)
+* [SDK Manual](./SDK/gForceSDK.md)
 
 ***
 
@@ -22,4 +22,4 @@
 * [OTrain](./APPs/OTrain.md)
 * [gForceApp for gForce100/gForcePro](./APPs/gForceAppLegacy.md)
 * [gForceApp for gForce200/gForcePro+/gForceOct](./APPs/gForceApp.md)
-* [oym8CHWave 8 channel wave ploter](./APPs/oym8CHWave.md)
+* [oym8CHWave 8 channel wave plotter](./APPs/oym8CHWave.md)

@@ -15,7 +15,7 @@ data in quaternions or [Euler Angles][EulerAngles] from its built-in 9-axis
 
 Comparing with the other gesture recognition devices that are based on
 the computer vision technology, gForce Armband has the advantage of no
-dependency of embient light, no strictness with angle, much lower energy
+dependency of ambient light, no strictness with angle, much lower energy
 and much lower cost.
 
 ![gForce200Armband](./imgs/gForce200Armband.jpg)
@@ -69,6 +69,13 @@ During re-charging, the red light LED on the main block is on. Re-charging will 
 To make sure gForce armband can recognize your gestures, please refer to
 [Guide to Performing Gestures][GuideToPerformingGestures] and spend several minutes learning and training yourself. The recognition rate can reach 95% and even higher after you get familiar with performing the gestures properly.
 
+## IMU
+
+When power on, the IMU directions are like this:
+![IMU](./imgs/IMU.png)
+
+But it will be reset when you press the multi-function button. You may view IMU data in [gForce APP](../APPs/gForceApp.md).
+
 ## Predefined Gestures
 
 The six predefined gestures are:
@@ -83,6 +90,14 @@ The six predefined gestures are:
 **Note**:
 > When both your arm and hand are at a rest state, it will be recognized as a
 > '_Relax_' gesture.
+
+## Fetch Gesture/Quaternion/IMU Data
+
+For data fetch, we offer SDK:
+Use [gForceSDKCXX](https://github.com/oymotion/gForceSDKCXX), [gForceSDKCSharp](https://github.com/oymotion/gForceSDKCSharp), [gForceSDKPython](https://github.com/oymotion/gForceSDKPython) to fetch gesture/quaternion/IMU data, etc.
+See [SDK list](../SDK/SDKList.md) & [gForceSDK manual](../SDK/gForceSDK.md) for help.
+
+***
 
 ## User Guide
 

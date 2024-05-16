@@ -17,8 +17,8 @@ nav:
     - gForceJoint: ./gForceJoint/gForceJoint.md
 
   - SDK:
-      - SDK List: ./gForceSDK/SDKList.md
-      - SDK Manual: ./gForceSDK/gForceSDK.md
+      - SDK List: ./SDK/SDKList.md
+      - SDK Manual: ./SDK/gForceSDK.md
 
   - APPs: 
       - OTrain: ./APPs/OTrain.md

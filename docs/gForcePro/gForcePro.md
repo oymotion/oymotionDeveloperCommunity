@@ -14,7 +14,7 @@ data in quaternions or [Euler Angles][EulerAngles] from its built-in 9-axis [IMU
 
 Comparing with the other gesture recognition devices that are based on
 the computer vision technology, gForce Armband has the advantage of no
-dependency of embient light, no strictness with angle, much lower energy
+dependency of ambient light, no strictness with angle, much lower energy
 and much lower cost.
 
 ***gForcePro+***
@@ -32,7 +32,7 @@ and much lower cost.
 
 ## Turning on/off
 
-- Turn on
+- **Turn on**
 
     When gForcePro/gForcePro+ or gForceOct module Armband is off, its green LED light will be off. To turn
     it on, simply press and hold the button in the middle of its main block for
@@ -45,7 +45,7 @@ and much lower cost.
     Make sure the armband has sufficient power, otherwise re-charge it with
     a micro USB line.
 
-- Turn off
+- **Turn off**
 
     When gForcePro/gForcePro+ Armband or gForceOct module is on, pressing and holding the button for
     about 5 seconds and then releasing will turn it off. The green LED being off
@@ -80,6 +80,15 @@ During re-charging, the red light LED on the main block is on. Re-charging will 
 
 ***
 
+## IMU
+
+When power on, the IMU directions are like this:
+![IMU](./imgs/IMU.png)
+
+But it will be reset when you press the multi-function button. You may view IMU data in [gForce APP](../APPs/gForceApp.md).
+
+***
+
 ## Gesture Training
 
 - **gForcePro**
@@ -94,12 +103,14 @@ During re-charging, the red light LED on the main block is on. Re-charging will 
 
 ***
 
-## Fetch EMG/Qurternion/... Data
+## Fetch EMG/Quaternion/... Data
+
+For data fetch, we offer SDK and ready to use terminal:
 
 - **Via SDK**
   
     Use [gForceSDKCXX](https://github.com/oymotion/gForceSDKCXX), [gForceSDKCSharp](https://github.com/oymotion/gForceSDKCSharp), [gForceSDKPython](https://github.com/oymotion/gForceSDKPython) to fetch EMG data, etc.
-    See [SDK list](../gForceSDK/SDKList.md) & [gForceSDK manual](../gForceSDK/gForceSDK.md) for help.
+    See [SDK list](../SDK/SDKList.md) & [gForceSDK manual](../SDK/gForceSDK.md) for help.
 
 - **Via oym8CHWave**
   
