@@ -47,3 +47,9 @@
 ## gForceSDKAndroidDemo for Android
 
 [gForceSDKAndroidDemo](https://github.com/oymotion/gForceSDKAndroidDemo) is for using gForce200/gForcePro/gForcePro+ in Android based systems.
+
+***
+
+## ohand_serial_sdk C++ for Windows
+
+Non public, Non-disclosure agreement needs to be signed

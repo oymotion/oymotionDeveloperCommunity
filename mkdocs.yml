@@ -15,6 +15,7 @@ nav:
     - gForce200: ./gForce200/gForce200UserGuide.md
     - gForcePro/gForcePro+: ./gForcePro/gForcePro.md
     - gForceJoint: ./gForceJoint/gForceJoint.md
+    - ROHand: ./ROHand/ROHand.md
 
   - SDK:
       - SDK List: ./SDK/SDKList.md
@@ -25,3 +26,4 @@ nav:
       - gForceApp for gForce100/gForcePro: ./APPs/gForceAppLegacy.md
       - gForceApp for gForce200/gForcePro+: ./APPs/gForceApp.md
       - oym8CHWave: ./APPs/oym8CHWave.md
+      - OHandSetting: ./APPs/OHandSetting.md
