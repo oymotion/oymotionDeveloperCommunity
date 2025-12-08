@@ -16,6 +16,8 @@ Please refer to [How to Install mkdocs](http://www.mkdocs.org/#installation)
 
 ```BASH
 pip install mkdocs-material
+pip install mkdocs-static-i18n
+pip install mkdocs-document-dates
 ```
 
 * Make some changes

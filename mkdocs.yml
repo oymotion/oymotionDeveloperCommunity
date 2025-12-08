@@ -1,29 +1,122 @@
+# 参考：https://wcowin.work/Mkdocs-Wcowin/
+#[Info]信息
 site_name: OYMotion
-site_author: He Bin
-copyright: Copyright© 2021 OYMotion Technologies,Inc.All rights reserved. 
+site_author: OYMotion
+site_description: 傲意科技，感触未来
+site_url: https://oymotion.github.io/
+copyright: Copyright© 2025 OYMotion Technologies,Inc.All rights reserved. 
+
+#[UI] 交互界面
 theme:
   name: material
+  custom_dir: docs/overrides # 自定义主题目录
+  logo: './assets/images/logo_dark.png' # 主页logo
+  favicon: './assets/images/favicon.ico' # 网站图标
+  font:
+    text: 'Roboto' # 字体
   palette:
-    primary: 'orange'
-    accent: 'deep orange'
-  logo: 'assets/images/logo.png'
-  favicon: 'assets/images/favicon.ico'
+    - media: "(prefers-color-scheme: light)"
+      scheme: default # 日间模式
+      primary: orange # 主色
+      accent: indigo # 强调色
+      toggle:
+        icon: material/brightness-3
+        name: 切换至夜间模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate # 夜间模式
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换至日间模式
+  features:
+    - search.suggest # 搜索建议
+    - search.highlight # 搜索高亮
+    - search.share # 搜索结果分享
+    - navigation.expand # 展开导航栏
+    - navigation.tabs # 顶部导航标签
+    - navigation.path # 面包屑导航 
+    - content.code.copy # 代码块复制按钮
+  language: zh
+  icon:
+    repo: fontawesome/brands/github #右上角图标
+    previous: fontawesome/solid/angle-left
+    alternate: fontawesome/solid/language
 
+repo_url: https://github.com/oymotion # 右上角点击跳转的链接
+repo_name: github.com/oymotion # 右上角的名字
+
+# [Navigtion] 主页
 nav:
-  - Home: index.md
-  - Products:
-    - gForce200: ./gForce200/gForce200UserGuide.md
-    - gForcePro/gForcePro+: ./gForcePro/gForcePro.md
-    - gForceJoint: ./gForceJoint/gForceJoint.md
-    - ROHand: ./ROHand/ROHand.md
+  - 主页: zh/index.md
+  - ROHand 灵巧手:
+      - 概述: zh/ROHand/Overview.md
+      - 产品: 
+          - ROH-A001/ROH-A002: zh/ROHand/ROH-A001&A002/index.md
+          - ROH-LiteS001: zh/ROHand/ROH-LiteS001/index.md
+          - ROH-AP001: zh/ROHand/ROH-AP001/index.md
+          - ROH-AP002: zh/ROHand/ROH-AP002/index.md
+      - 软件开发包:
+          - C/C++ SDK: zh/ROHand/SDK/ROH_SDK_CXX.md
+          - Python SDK: zh/ROHand/SDK/ROH_SDK_Python.md
+      - 示例程序:
+          - ROH-Gen1-Demos: zh/ROHand/ROH-Demos/ROH_Gen1_Demos.md
+          - ROH-Gen2-Demos: zh/ROHand/ROH-Demos/ROH_Gen2_Demos.md
+      - 协议文档:
+          - OHandModBusRTUProtocol_Gen1: zh/ROHand/ROH-Protocols/OHandModBusRTUProtocol_Gen1.md
+          - OHandSerialProtocol_Gen1: zh/ROHand/ROH-Protocols/OHandSerialProtocol_Gen1.md
+          - OHandModBusRTUProtocol_Gen2: zh/ROHand/ROH-Protocols/OHandModBusRTUProtocol_Gen2.md
+          - OHandSerialProtocol_Gen2: zh/ROHand/ROH-Protocols/OHandSerialProtocol_Gen2.md
+      - 常见问题: zh/ROHand/FAQs/FAQs.md
+  - gForce系列:
+    - 概述: zh/gForce/Overview.md
+    - 产品:
+      - gForce200: zh/gForce/gForce200/gForce200UserGuide.md
+      - gForcePro/gForcePro+: zh/gForce/gForcePro/gForcePro.md
+      - gForceJoint: zh/gForce/gForceJoint/gForceJoint.md
+    - 软件开发包:
+      - SDK 列表: zh/gForce/SDK/SDKList.md
+      - SDK 手册: zh/gForce/SDK/gForceSDK.md
+    - 应用程序:
+      - OTrain: zh/gForce/APPs/OTrain.md
+      - gForce100/gForcePro: zh/gForce/APPs/gForceAppLegacy.md
+      - gForce200/gForcePro+/gForceOct: zh/gForce/APPs/gForceApp.md
+      - oym8CHWave: zh/gForce/APPs/oym8CHWave.md
 
-  - SDK:
-      - SDK List: ./SDK/SDKList.md
-      - SDK Manual: ./SDK/gForceSDK.md
+# [plugins] 插件
+plugins:
+  - document-dates # 日期
+  - search # 搜索栏
+  - i18n:
+      docs_structure: folder
+      reconfigure_material: true
+      reconfigure_search: true 
+      languages:
+        - locale: en
+          name: English
+          build: true
+          default: false
+          nav_translations:
+            主页: HOME
+            ROHand 灵巧手: ROHand Dexterous Hand  
+            概述: Overview
+            产品: Products
+            软件开发包: SDK
+            示例程序: Demos
+            协议文档: Protocol Documents
+            常见问题: FAQ
+            gForce系列: gForce Series
+            SDK 列表: SDK List
+            SDK 手册: SDK Manual
+            应用程序: APPs
 
-  - APPs: 
-      - OTrain: ./APPs/OTrain.md
-      - gForceApp for gForce100/gForcePro: ./APPs/gForceAppLegacy.md
-      - gForceApp for gForce200/gForcePro+: ./APPs/gForceApp.md
-      - oym8CHWave: ./APPs/oym8CHWave.md
-      - OHandSetting: ./APPs/OHandSetting.md
+        - locale: zh
+          name: 简体中文
+          build: true
+          default: true
+
+# [Markdown] Markdown 扩展
+markdown_extensions:
+  - attr_list # 允许为 Markdown 元素添加 HTML 属性和 CSS 类
+  - pymdownx.superfences # 增强代码块的显示功能
+  - pymdownx.highlight
