@@ -168,7 +168,7 @@ wget http://fishros.com/install -O fishros && . fishros
 
 ### 3. 运行URDF ros2项目
 
-请访问[URDF README](../ROS/LITES_URDF_ROS2)获取更多信息.  
+请访问[URDF README](../ROS/LITES_URDF_ROS2.md)获取更多信息.  
 
 运行成功界面截图所示:  
 
