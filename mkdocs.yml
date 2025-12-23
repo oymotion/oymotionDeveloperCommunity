@@ -56,6 +56,7 @@ nav:
           - ROH-LiteS001: zh/ROHand/ROH-LiteS001/index.md
           - ROH-AP001: zh/ROHand/ROH-AP001/index.md
           - ROH-AP002: zh/ROHand/ROH-AP002/index.md
+          - ROH-LitEDU: zh/ROHand/ROH-LitEDU/index.md
       - 软件开发包:
           - C/C++ SDK: zh/ROHand/SDK/ROH_SDK_CXX.md
           - Python SDK: zh/ROHand/SDK/ROH_SDK_Python.md

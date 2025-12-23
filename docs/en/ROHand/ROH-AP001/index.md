@@ -88,6 +88,92 @@ wget http://fishros.com/install -O fishros && . fishros
 
 Please visit [ROS2 README](../ROS/ROS2.md) for more details.
 
+## URDF ROS1
+
+ROHand's URDF ROS1 support is based on the [rohand_gen2_urdf_ros1](https://github.com/oymotion/rohand_gen2_urdf_ros1){: target="_blank"} package, the following is the usage environment:  
+
+- The currently supported ROHHand series include ROH-AP001.
+
+- ROS1 supported Ubuntu versions: 20.04(Noetic)  
+
+- ROHand supported nodes: ModBus-RTU, SerialCtrl and teleop (for debugging only)  
+
+For installation details of ROS1 environment, please visit [fishros](https://fishros.org.cn/forum/topic/20/%E5%B0%8F%E9%B1%BC%E7%9A%84%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E7%B3%BB%E5%88%97){: target="_blank"}
+
+### 1. Install ROS1 environment
+
+Use the one-click installation command to install ROS1 and select a supported version  
+
+```Bash
+wget http://fishros.com/install -O fishros && . fishros
+```
+
+### 2. Download rohand_gen2_urdf_ros1
+
+- Method 1: [Click this link](../../../assets/downloads/ROHand/rohand_gen2_urdf_ros1-main.zip) to download
+
+- Method 2: Visit [rohand_gen2_urdf_ros1](https://github.com/oymotion/rohand_gen2_urdf_ros1){: target="_blank"} GitHub page to download the latest version  
+
+- Method 3: Obtain via clone:  
+
+    ```BASH
+    cd ~
+    mkdir -p ros_ws/src
+    cd ros_ws/src
+    git clone ssh://git@github.com/oymotion/rohand_gen2_urdf_ros1
+    ```
+
+### 3. Run URDF ROS1 project
+
+Please visit [URDF README](../ROS/GEN2_URDF_ROS1.md) for more details.  
+
+When running successfully, it should be as shown in the figure  
+
+![AP001](../imgs/AP001_ros1.png)
+
+## URDF ROS2
+
+ROHand's URDF ROS2 support is based on the [rohand_gen2_urdf_ros2](https://github.com/oymotion/rohand_gen2_urdf_ros2){: target="_blank"} package, the following is the usage environment:  
+
+- The currently supported ROHHand series include ROH-AP001.
+
+- ROS2 supported Ubuntu versions: 22.04(humble or rolling)  
+
+- ROHand supported nodes: ModBus-RTU, SerialCtrl and teleop (for debugging only)  
+
+For installation details of ROS1 environment, please visit [fishros](https://fishros.org.cn/forum/topic/20/%E5%B0%8F%E9%B1%BC%E7%9A%84%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E7%B3%BB%E5%88%97){: target="_blank"}
+
+### 1. Install ROS2 environment
+
+Use the one-click installation command to install ROS2 and select a supported version  
+
+```Bash
+wget http://fishros.com/install -O fishros && . fishros
+```
+
+### 2. Download rohand_gen2_urdf_ros2
+
+- Method 1: [Click this link](../../../assets/downloads/ROHand/rohand_gen2_urdf_ros2-main.zip) to download
+
+- Method 2: Visit [rohand_gen2_urdf_ros2](https://github.com/oymotion/rohand_gen2_urdf_ros2){: target="_blank"} GitHub page to download the latest version  
+
+- Method 3: Obtain via clone:  
+
+    ```BASH
+    cd ~
+    mkdir -p ros2_ws/src
+    cd ros2_ws/src
+    git clone ssh://git@github.com/oymotion/rohand_gen2_urdf_ros2
+    ```
+
+### 3. Run URDF ROS2 project
+
+Please visit [URDF README](../ROS/GEN2_URDF_ROS2.md) for more details.  
+
+When running successfully, it should be as shown in the figure  
+
+![AP001](../imgs/AP001_ros2.png)
+
 ## Python Demos
 
 These example programs aim to provide a convenient Python interface and sample code for the secondary development of the OYMotion dexterous hand. Through these example programs, users can easily achieve control of the dexterous hand, thereby accelerating the development process of dexterous hand-related applications.
@@ -179,3 +265,34 @@ This example shows dexterous hand force data on the heatmap image
 ### SDK Guide
 
 [Click this link](../SDK/ROH_SDK_Python.md) to get more details
+
+## Mujoco
+
+### Environment
+
+- System: Windows 10/11 or ubuntu20.04 and above  
+- module: mujoco
+
+### Download Mujoco Project
+
+- Method 1: [Click this link](../../../assets/downloads/ROHand/AP001_mujoco.zip) to download  
+
+- Method 2: Visit [rohand_mujoco](https://github.com/oymotion/rohand_mujoco){: target="_blank"} to get Mujoco project.  
+
+- Method 3: Obtain via clone:  
+
+    ```Bash
+    git clone https://github.com/oymotion/rohand_mujoco
+    ```
+
+### Run
+
+```bash
+python main.py
+```
+
+[Click this link](../MUJOCO/AP001.md) to get more details
+
+When running successfully, it should be as shown in the figure:  
+
+![AP001_mujoco](../imgs/AP001_mujoco.png)

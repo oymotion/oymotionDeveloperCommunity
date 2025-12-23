@@ -88,6 +88,92 @@ wget http://fishros.com/install -O fishros && . fishros
 
 请访问[ROS2 README](../ROS/ROS2.md)获取更多信息.
 
+## URDF ROS1
+
+ROHand的URDF ROS1支持是基于[rohand_gen2_urdf_ros1](https://github.com/oymotion/rohand_gen2_urdf_ros1){: target="_blank"} 功能包进行的, 以下为使用环境:  
+
+- 当前支持的ROHand系列的有: ROH-AP001.  
+
+- ROS1支持Ubuntu版本: 20.04(Noetic)  
+
+- ROHand支持节点: ModBus-RTU , SerialCtrl 和 teleop(仅调试时用)  
+
+安装ros1环境详情请访问[fishros](https://fishros.org.cn/forum/topic/20/%E5%B0%8F%E9%B1%BC%E7%9A%84%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E7%B3%BB%E5%88%97){: target="_blank"}
+
+### 1. 安装ROS1环境
+
+使用一键安装指令安装ros1并选择支持的版本.  
+
+```Bash
+wget http://fishros.com/install -O fishros && . fishros
+```
+
+### 2. 下载 rohand_gen2_urdf_ros1
+
+- 方法一: [点击此链接](../../../assets/downloads/ROHand/rohand_gen2_urdf_ros1-main.zip)下载
+
+- 方法二: 访问[rohand_gen2_urdf_ros1](https://github.com/oymotion/rohand_gen2_urdf_ros1){: target="_blank"} github网址下载最新版本  
+
+- 方法三: 通过clone获取:  
+
+    ```BASH
+    cd ~
+    mkdir -p ros_ws/src
+    cd ros_ws/src
+    git clone ssh://git@github.com/oymotion/rohand_gen2_urdf_ros1
+    ```
+
+### 3. 运行URDF ros1项目
+
+请访问[URDF README](../ROS/GEN2_URDF_ROS1.md)获取更多信息.  
+
+运行成功界面截图所示:  
+
+![AP001](../imgs/AP001_ros1.png)
+
+## URDF ROS2
+
+ROHand的URDF ROS2支持是基于[rohand_gen2_urdf_ros2](https://github.com/oymotion/rohand_gen2_urdf_ros2){: target="_blank"} 功能包进行的, 以下为使用环境:  
+
+- 当前支持的ROHand的有ROH-AP001.  
+
+- ROS2支持Ubuntu版本: 22.04(humble或rolling).  
+
+- ROHand支持节点: ModBus-RTU , SerialCtrl 和 teleop(仅调试时用)  
+
+安装ros2环境详情请访问[鱼香ros](https://fishros.org.cn/forum/topic/20/%E5%B0%8F%E9%B1%BC%E7%9A%84%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E7%B3%BB%E5%88%97){: target="_blank"} .
+
+### 1. 安装ROS2环境
+
+使用一键安装指令安装ros2并选择支持的版本.  
+
+```Bash
+wget http://fishros.com/install -O fishros && . fishros
+```
+
+### 2. 下载rohand_gen2_urdf_ros2
+
+- 方法一: [点击此链接](../../../assets/downloads/ROHand/rohand_gen2_urdf_ros2-main.zip)下载
+
+- 方法二: 访问[rohand_gen2_urdf_ros2](https://github.com/oymotion/rohand_gen2_urdf_ros2){: target="_blank"} github网址下载最新版本  
+
+- 方法三: 通过clone获取:  
+
+    ```BASH
+    cd ~
+    mkdir -p ros2_ws/src
+    cd ros2_ws/src
+    git clone ssh://git@github.com/oymotion/rohand_gen2_urdf_ros2
+    ```
+
+### 3. 运行URDF ros2项目
+
+请访问[URDF README](../ROS/GEN2_URDF_ROS2.md)获取更多信息.  
+
+运行成功界面截图所示:  
+
+![AP001](../imgs/AP001_ros2.png)
+
 ## Python 示例程序
 
 本示例程序旨在为傲意灵巧手的二次开发提供便捷的Python接口与示例代码.通过示例程序,用户能够轻松实现对灵巧手的控制,从而加速灵巧手相关应用的开发过程.
@@ -179,3 +265,34 @@ gForce APP 手环训练请参考[<u>此文件</u>](../../assets/downloads/gForce
 ### SDK Python指南
 
 [点击此处](../SDK/ROH_SDK_Python.md) 获取更多信息
+
+## Mujoco
+
+### 环境
+
+- 系统: Windows 10/11 与 ubuntu20.04及以上  
+- 模块: mujoco
+
+### 下载Mujoco项目
+
+- 方法一: [点击此链接](../../../assets/downloads/ROHand/AP001_mujoco.zip)下载
+
+- 方法二: 访问[rohand_mujoco](https://github.com/oymotion/rohand_mujoco){: target="_blank"} github网址下载最新版本  
+
+- 方法三: 通过clone获取:  
+
+    ```Bash
+    git clone https://github.com/oymotion/rohand_mujoco
+    ```
+
+### 运行
+
+```bash
+python main.py
+```
+
+[点击此处](../MUJOCO/AP001.md) 获取更多信息  
+
+运行成功时应如图所示:  
+
+![AP001_mujoco](../imgs/AP001_mujoco.png)
