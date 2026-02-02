@@ -4,7 +4,7 @@ site_name: OYMotion
 site_author: OYMotion
 site_description: 傲意科技，感触未来
 site_url: https://oymotion.github.io/
-copyright: Copyright© 2025 OYMotion Technologies,Inc.All rights reserved. 
+copyright: Copyright© 2026 OYMotion Technologies,Inc.All rights reserved. 
 
 #[UI] 交互界面
 theme:
@@ -121,3 +121,6 @@ markdown_extensions:
   - attr_list # 允许为 Markdown 元素添加 HTML 属性和 CSS 类
   - pymdownx.superfences # 增强代码块的显示功能
   - pymdownx.highlight
+
+extra_javascript:
+  - javascripts/baidu-tongji.js   # 百度统计代码
