@@ -6,9 +6,9 @@ ROHAND 灵巧手共有 11 个运动关节，内置 6 个电机驱动器和电机
 
 ROHand 灵巧手提供 UART、RS485([下载驱动](https://www.wch.cn/downloads/CH341SER_EXE.html){: target="_blank"}) 或 CAN([下载驱动](https://peak-system.com.cn/driver/){: target="_blank"}) 物理接口，支持 SerialCtrl 专用串行协议、ModBus-RTU 协议和 CAN 协议，可为 ROS / ROS2 平台提供二次开发 SDK。目前分为以下版本：
 
-|          ***ROH-A001/ROH-A002***          |          ***ROH-AP001***           |              ***ROH-LiteS001***              |
-| :---------------------------------------: | :--------------------------------: | :------------------------------------------: |
-| ![ROH-A001/ROH-A002](./imgs/ROH-A001.png) | ![ROH-AP001](./imgs/ROH-AP001.png) | <br>![ROH-LiteS001](./imgs/ROH-LiteS001.png) |
+|          ***ROH-A001/ROH-A002***          |          ***ROH-AP001***           |          ***ROH-AP002***           |            ***ROH-LiteS001***            |
+| :---------------------------------------: | :--------------------------------: | :--------------------------------: | :--------------------------------------: |
+| ![ROH-A001/ROH-A002](./imgs/ROH-A001.png) | ![ROH-AP001](./imgs/ROH-AP001.png) | ![ROH-AP002](./imgs/ROH-AP002.png) | ![ROH-LiteS001](./imgs/ROH-LiteS001.png) |
 
 ## 开箱使用
 

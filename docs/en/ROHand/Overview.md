@@ -6,9 +6,9 @@ The ROHAND Dexterous Hand comprises 11 motion joints with 6 built-in motor drive
 
 ROHand Dexterous Hand provides UART, RS485([Download Driver](https://www.wch.cn/downloads/CH341SER_EXE.html){: target="_blank"}) or CAN([Download Driver](https://peak-system.com.cn/driver/){: target="_blank"}) physical interfaces, supports SerialCtrl dedicated serial protocol, ModBus-RTU protocol and CAN protocol, and can provide SDK for secondary development on ROS/ROS2 platforms. It is currently divided into the following versions:  
 
-|          ***ROH-A001/ROH-A002***          |          ***ROH-AP001***           |              ***ROH-LiteS001***              |
-| :---------------------------------------: | :--------------------------------: | :------------------------------------------: |
-| ![ROH-A001/ROH-A002](./imgs/ROH-A001.png) | ![ROH-AP001](./imgs/ROH-AP001.png) | <br>![ROH-LiteS001](./imgs/ROH-LiteS001.png) |
+|          ***ROH-A001/ROH-A002***          |          ***ROH-AP001***           |          ***ROH-AP002***           |              ***ROH-LiteS001***              |
+| :---------------------------------------: | :--------------------------------: | :--------------------------------: | :------------------------------------------: |
+| ![ROH-A001/ROH-A002](./imgs/ROH-A001.png) | ![ROH-AP001](./imgs/ROH-AP001.png) | ![ROH-AP002](./imgs/ROH-AP002.png) | ![ROH-LiteS001](./imgs/ROH-LiteS001.png) |
 
 ## Ready to Use Out of the Box
 
