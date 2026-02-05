@@ -14,7 +14,7 @@ ROHand's ROHDemoCollection is developed based on Python pyqt6, Below is the usag
 
 ### Install CH341SER Driver
 
-[Click here]](../../../assets/downloads/ROHand/CH341SER.EXE)to download CH341SER driver  
+[Click here](../../../assets/downloads/ROHand/CH341SER.EXE)to download CH341SER driver  
 
 Double-click the exe file to open the CH341SER installer  
 
