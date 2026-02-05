@@ -63,6 +63,7 @@ nav:
       - 示例程序:
           - ROH-Gen1-Demos: zh/ROHand/ROH-Demos/ROH_Gen1_Demos.md
           - ROH-Gen2-Demos: zh/ROHand/ROH-Demos/ROH_Gen2_Demos.md
+          - ROH-Demo-Collection: zh/ROHand/ROH-Demos/ROH_Demo_Collection.md
       - 协议文档:
           - OHandModBusRTUProtocol_Gen1: zh/ROHand/ROH-Protocols/OHandModBusRTUProtocol_Gen1.md
           - OHandSerialProtocol_Gen1: zh/ROHand/ROH-Protocols/OHandSerialProtocol_Gen1.md

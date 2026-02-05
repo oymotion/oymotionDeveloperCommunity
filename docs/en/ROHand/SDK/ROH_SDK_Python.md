@@ -2670,12 +2670,12 @@ err = serial_api_instance.HAND_ResetForce(hand_id, [])
 assert err == HAND_RESP_SUCCESS, f"test_force_reset: {err}\n"
 ```
 
-### <span style="background-color: #e7f4ffff;color: red;"> HAND_ResetForce()</span>
+### <span style="background-color: #e7f4ffff;color: red;"> HAND_SetCustom()</span>
 
 - Method Signature：  
 
 ```python
-def HAND_ResetForce(self, hand_id, remote_err):
+def HAND_SetCustom(self, hand_id, data, send_data_size, recv_data_size, remote_err):
 ```
 
 - Purpose：
@@ -2722,8 +2722,34 @@ Failure: Return the corresponding error code
 - Usage Example:  
 
 ```python
-err = serial_api_instance.HAND_ResetForce(hand_id, [])
-assert err == HAND_RESP_SUCCESS, f"test_force_reset: {err}\n"
+data_flag = get_flag
+data = bytearray(1)
+if speed is not None:
+    data_flag |= SUB_CMD_SET_SPEED
+    for i in range(len(speed)):
+        value = int(speed[i])
+        value = clamp(value, 0, 65535)
+        data.append(value & 0xFF)
+        data.append((value >> 8) & 
+if position is not None:
+    data_flag |= SUB_CMD_SET_POS
+    for i in range(len(position)):
+        value = int(position[i])
+        value = clamp(value, 0, 65535)
+        data.append(value & 0xFF)
+        data.append((value >> 8) & 
+if angle is not None:
+    data_flag |= SUB_CMD_SET_ANGLE
+    for i in range(len(angle)):
+        value = int(angle[i] * 100)  # scale
+        if value < 0:
+            value += 65536
+        value = clamp(value, 0, 65535)
+        data.append(value & 0xFF)
+        data.append((value >> 8) & 
+data[0] = data
+date_count = [0]
+err = instance.HAND_SetCustom(hand_id, data, len(data), date_count, [])
 ```
 
 ### <span style="background-color: #e7f4ffff;color: red;"> HAND_SetSelfTestLevel()</span>
