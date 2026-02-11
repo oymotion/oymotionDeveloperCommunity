@@ -84,6 +84,7 @@ nav:
       - gForce100/gForcePro: zh/gForce/APPs/gForceAppLegacy.md
       - gForce200/gForcePro+/gForceOct: zh/gForce/APPs/gForceApp.md
       - oym8CHWave: zh/gForce/APPs/oym8CHWave.md
+  - 隐私政策: zh/privacy-policy.md
 
 # [plugins] 插件
 plugins:
@@ -111,6 +112,7 @@ plugins:
             SDK 列表: SDK List
             SDK 手册: SDK Manual
             应用程序: APPs
+            隐私政策: Privacy Policy
 
         - locale: zh
           name: 简体中文
@@ -125,3 +127,48 @@ markdown_extensions:
 
 extra_javascript:
   - javascripts/baidu-tongji.js   # 百度统计代码
+
+extra:
+  consent:
+    title: Cookie
+    description: |
+      <div id="consent-description-zh">
+        本网站使用百度统计进行流量分析，可能收集您的 IP 和浏览行为。<br>详见<a href="/privacy-policy">隐私政策</a>。
+      </div>
+      <div id="consent-description-en" style="display:none;">
+        This website uses Baidu statistics for traffic analysis and may collect your IP and browsing behavior.<br>For details, please see <a href="/en/privacy-policy">privacy policy</a>.
+      </div>
+    actions:
+      - accept
+      - manage
+      - reject
+    cookies:
+      analytics:
+        name: 百度统计（Baidu Analytics）
+        checked: true
+    hooks:
+      accept: |
+        // 用户点击"同意"时加载统计
+        if (__consent.analytics) {
+          window.loadBaiduTongji();
+        }
+      reject: |
+        // 用户点击"拒绝"时禁用统计
+        window._hmt = window._hmt || [];
+        _hmt.push(['_setAutoTracking', false]);
+      manage: |
+        // 用户在设置中修改时同步状态
+        if (__consent.analytics) {
+          // 如果启用统计
+          if (typeof window._hmt === "undefined" || !window._hmt._loaded) {
+            window.loadBaiduTongji();
+          } else {
+            // 如果已加载则重新启用
+            _hmt.push(['_setAutoTracking', true]);
+          }
+        } else {
+          // 如果禁用统计
+          if (window._hmt) {
+            _hmt.push(['_setAutoTracking', false]);
+          }
+        }
