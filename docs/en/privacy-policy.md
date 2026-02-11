@@ -6,6 +6,6 @@ Baidu Tongji collects anonymized IP addresses, device types, browser information
 
 This data is used solely for statistical analysis and will not be associated with personal identity.
 
-Baidu Tongji Privacy Policy: [Privacy Policy](https://tongji.baidu.com/web/help/article?id=330&type=0)
+Baidu Tongji Privacy Policy: [Privacy Policy](https://tongji.baidu.com/web/help/article?id=330&type=0){: target="_blank"}
 
 If you do not wish to be included in the statistics, you can opt out by adjusting your Cookie settings.

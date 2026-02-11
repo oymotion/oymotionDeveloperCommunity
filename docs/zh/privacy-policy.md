@@ -6,6 +6,6 @@
 
 这些数据仅用于统计分析，不会关联到个人身份。
 
-百度统计隐私政策：[隐私政策](https://tongji.baidu.com/web/help/article?id=330&type=0)。
+百度统计隐私政策：[隐私政策](https://tongji.baidu.com/web/help/article?id=330&type=0){: target="_blank"}。
 
 如果您不希望被统计，可以通过调整 Cookie 设置选择退出。
