@@ -2,7 +2,7 @@
 
 ## 用户手册
 
-[<u>ROH-LiteS001 用户手册</u>](https://www.oymotion.com/upload/files/20251024145240ROH-LiteS001%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%81%B5%E5%B7%A7%E6%89%8B-V1.0.5.pdf){: target="_blank"}
+[<u>ROH-LiteS001 用户手册</u>](https://www.oymotion.com/upload/files/20260302095923ROH-LiteS001%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%81%B5%E5%B7%A7%E6%89%8B-V1.0.6.pdf){: target="_blank"}
 
 ## 通讯协议
 
