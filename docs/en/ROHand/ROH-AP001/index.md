@@ -295,4 +295,8 @@ python main.py
 
 When running successfully, it should be as shown in the figure:  
 
-![AP001_mujoco](../imgs/AP001_mujoco.png)
+![AP001_mujoco](../imgs/AP001_mujoco.png)  
+
+## Reference File For Force Data
+
+[Click here to view](../imgs/AYSensor.pdf){: target="_blank"}  

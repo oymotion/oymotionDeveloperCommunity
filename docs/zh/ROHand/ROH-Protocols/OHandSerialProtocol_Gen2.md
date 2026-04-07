@@ -47,7 +47,7 @@ ROH 灵巧手对指令的回复帧如下：
 
 | 包头  | 灵巧手 ID | 主机 ID | 操作命令 | 数据长度 | 数据                                                  | 校验码 |
 | ----- | --------- | ------- | -------- | -------- | ----------------------------------------------------- | ------ |
-| 55 AA | 02        | 01      | 50       | 12       | 10 27 FF 10 27 FF 10 27 FF 10 27 FF 10 27 FF 10 27 FF | 66     |
+| 55 AA | 02        | 01      | 50       | 12       | 10 27 FF 10 27 FF 10 27 FF 10 27 FF 10 27 FF 10 27 FF | 41     |
 
 正确回复帧（HEX）：
 
@@ -112,6 +112,7 @@ buf[2 + cmd_data_len] = lrc;
 | HAND_CMD_GET_UID                  | 0x23 | 获取手UID                                                                            |                                                                                                                                                                                                                                                                    | [UID0_BYTE0, UID0_BYTE1, UID0_BYTE2, UID0_BYTE3, UID1_BYTE0, UID1_BYTE1, UID1_BYTE2, UID1_BYTE3, UID2_BYTE0, UID2_BYTE1, UID2_BYTE2, UID2_BYTE3]                                                                                    |
 | HAND_CMD_GET_BATTERY_VOLTAGE      | 0x24 | 获取电池电压，单位mV，ROHand请忽略                                                   |                                                                                                                                                                                                                                                                    | [BATTERY_VOLTAGE_L, BATTERY_VOLTAGE_H]                                                                                                                                                                                              |
 | HAND_CMD_GET_USAGE_STAT           | 0x25 | 获取使用数据，ROHand请忽略                                                           | [MOTOR_CNT]                                                                                                                                                                                                                                                        | [USE_TIME_BYTE0, USE_TIME_BYTE1, USE_TIME_BYTE2, USE_TIME_BYTE3, F0_OPEN_CNT_BYTE0, F0_OPEN_CNT_BYTE1, F0_OPEN_CNT_BYTE2, F0_OPEN_CNT_BYTE3, ..., Fn_OPEN_CNT_BYTE0, Fn_OPEN_CNT_BYTE1, Fn_OPEN_CNT_BYTE2, Fn_OPEN_CNT_BYTE3]       |
+| HAND_CMD_GET_SPEED_CTRL_PARAMS    | 0x3D | 获取手指速度控制系数                                                                 |                                                                                                                                                                                                                                                                    | [SPEED_CTRL_BRAKE_DISTANCE_L, SPEED_CTRL_BRAKE_DISTANCE_H, SPEED_CTRL_ACCEL_DISTANCE_L, SPEED_CTRL_ACCEL_DISTANCE_H, SPEED_CTRL_SPEED_RATIO_L, SPEED_CTRL_SPEED_RATIO_H]                                                            |
 | HAND_CMD_GET_MANUFACTURE_DATA     | 0x3E | 获取厂方数据                                                                         |                                                                                                                                                                                                                                                                    | [BYTE0, ..., BYTEn]                                                                                                                                                                                                                 |
 | HAND_CMD_GET_VENDOR_ID            | 0x3F | 获取供应商ID                                                                         |                                                                                                                                                                                                                                                                    | ['O', 'Y']                                                                                                                                                                                                                          |
 | HAND_CMD_RESET                    | 0x40 | 重启，MODE=0：重启进入工作状态；MODE=1：重启进入DFU模式                              | [MODE]                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                     |
@@ -142,7 +143,7 @@ buf[2 + cmd_data_len] = lrc;
 | HAND_CMD_SET_BUTTON_PRESSED_CNT   | 0x63 | 设置按钮按下次数，仅限校正                                                           | [BTN_PRESSED_CNT]                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                     |
 | HAND_CMD_START_INIT               | 0x64 | 开始初始化为了使 SELF_TEST_LEVEL=0                                                   |                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                     |
 | HAND_CMD_SET_MANUFACTURE_DATA     | 0x65 | 设置厂方数据                                                                         | ...                                                                                                                                                                                                                                                                |                                                                                                                                                                                                                                     |
-
+| HAND_CMD_SET_SPEED_CTRL_PARAMS    | 0x66 | 设置手指速度控制系数                                                                 | [SPEED_CTRL_BRAKE_DISTANCE_L, SPEED_CTRL_BRAKE_DISTANCE_H, SPEED_CTRL_ACCEL_DISTANCE_L, SPEED_CTRL_ACCEL_DISTANCE_H, SPEED_CTRL_SPEED_RATIO_L, SPEED_CTRL_SPEED_RATIO_H]                                                                                           |                                                                                                                                                                                                                                     |
 注：
 
 1. 如果不加说明，单字节数据为 uint8 类型，XXX_L, XXX_H 表示 uint16 类型的低字节和高字节；XXX_BYTE0, XXX_BYTE1, XXX_BYTE2, XXX_BYTE3 表示 uint32 类型自低到高 4 个字节；
@@ -151,17 +152,17 @@ buf[2 + cmd_data_len] = lrc;
    
 (1) 点阵版本：
     
-    大拇指7 \* 5个字节，对应所有点的数据，每个字节独立表示力的大小，单位为mN，以此类推；
+    大拇指7 x 5个字节，对应所有点的数据，每个字节独立表示力的大小，单位为mN，以此类推；
     
-    食指12 \* 5个字节；
+    食指12 x 5个字节；
     
-    中指12 \* 5个字节；
+    中指12 x 5个字节；
     
-    无名指12 \* 5个字节；
+    无名指12 x 5个字节；
     
-    小指8 \* 4个字节；
+    小指8 x 4个字节；
     
-    手掌11 \* 5个字节。
+    手掌11 x 5个字节。
 
 (2) 三维力版本：
 
@@ -175,10 +176,8 @@ buf[2 + cmd_data_len] = lrc;
 
     小指6个字节，与大拇指相同；
 
-    手掌11 \* 5个字节，与点阵版本相同。
+    手掌11 x 5个字节，与点阵版本相同。
 
-(3) 一维力版本：
-    待定
 
 ## 6. 灵巧手错误代码
 
@@ -198,8 +197,8 @@ buf[2 + cmd_data_len] = lrc;
 
 角度定义及运动范围说明：
 
-|                           角度                           |                  图例说明                   |                                               角度范围                                               |
-| :------------------------------------------------------: | :-----------------------------------------: | :--------------------------------------------------------------------------------------------------: |
-| 食指 </br></br> 中指 </br></br> 无名指 </br></br> 小拇指 | ![Finger Screen](../imgs/FingerBending.png) | 100.22°~178.37° </br></br> 97.81° ~ 176.06° </br></br> 101.38° ~ 176.54° </br></br> 98.84° ~ 174.86° |
-|                        大拇指弯曲                        | ![Finger Screen](../imgs/ThumbBending.png)  |                                            2.26° ~ 36.76°                                            |
+|                           角度                           |                图例说明                 |                                               角度范围                                               |
+| :------------------------------------------------------: | :-------------------------------------: | :--------------------------------------------------------------------------------------------------: |
+| 食指 </br></br> 中指 /br></br> 无名指 </br></br> 小拇指 | ![Finger Screen](../imgs//FingerBending.png) | 100.22°~178.37° </br></br> 97.81° ~ 176.06° </br></br> 101.38° ~ 176.54° </br></br> 98.84° ~ 174.86° |
+|                        大拇指弯曲                        | ![Finger Screen](../imgs//ThumbBending.png)  |                                            2.26° ~ 36.76°                                            |
 |                        大拇指旋转                        | ![Finger Screen](../imgs/ThumbRotation.png) |                                               0° ~ 90°                                               |

@@ -295,4 +295,8 @@ python main.py
 
 运行成功时应如图所示:  
 
-![AP001_mujoco](../imgs/AP001_mujoco.png)
+![AP001_mujoco](../imgs/AP001_mujoco.png)  
+
+## 力数据参考图
+
+[点击此处查阅](../imgs/AY传感器.pdf){: target="_blank"}  
