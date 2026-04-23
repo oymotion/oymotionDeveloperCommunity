@@ -2,7 +2,7 @@
 
 ## 用户手册
 
-[<u>ROH-A001/ROH-A002 用户手册</u>](https://www.oymotion.com/upload/files/20260302095456ROH-A002%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%81%B5%E5%B7%A7%E6%89%8B-V1.1.3.pdf){: target="_blank"}
+[<u>ROH-A001/ROH-A002 用户手册</u>](../imgs/ROH-A002机器人灵巧手-V1.1.4.pdf){: target="_blank"}
 
 ## 通讯协议
 

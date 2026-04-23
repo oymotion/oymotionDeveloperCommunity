@@ -2,7 +2,7 @@
 
 ## User Manual
 
-[<u>ROH-AP002 User Manual</u>](https://www.oymotion.com/upload/files/20260302095721ROH-AP002-Dexterous-Hand-V1.0.1.pdf){: target="_blank"}
+[<u>ROH-AP002 User Manual</u>](../imgs/ROH-AP002-Dexterous-Hand-V1.0.2.pdf){: target="_blank"}
 
 ## Communication Protocol
 

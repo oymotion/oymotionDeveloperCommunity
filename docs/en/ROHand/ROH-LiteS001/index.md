@@ -2,7 +2,7 @@
 
 ## User Manual
 
-[<u>ROH-LiteS001 User Manual</u>](https://www.oymotion.com/upload/files/20260302095836ROH-LiteS001-Dexterous-Hand-V1.0.6.pdf){: target="_blank"}
+[<u>ROH-LiteS001 User Manual</u>](../imgs/ROH-LiteS001-Dexterous-Hand-V1.0.7.pdf){: target="_blank"}
 
 ## Communication Protocol
 
