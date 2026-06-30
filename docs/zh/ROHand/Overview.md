@@ -24,7 +24,7 @@ ROHand 灵巧手提供 UART、RS485([下载驱动](https://www.wch.cn/downloads/
 
 ## 上位机使用手册
 
-[<u>查看</u>](../../assets/downloads/ROHand/OHandSetting使用手册-V1.4.pdf){: target="_blank"}
+[<u>查看</u>](../../assets/downloads/ROHand/OHandSetting使用手册.pdf){: target="_blank"}
 
 ## 上位机视频教程
 

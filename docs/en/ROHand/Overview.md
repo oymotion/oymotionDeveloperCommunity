@@ -24,7 +24,7 @@ ROHand Dexterous Hand provides UART, RS485([Download Driver](https://www.wch.cn/
 
 ## Host Computer Software User Manual
 
-[<u>View</u>](../../assets/downloads/ROHand/OHandSetting-Instruction-Manual-V1.4.pdf){: target="_blank"}
+[<u>View</u>](../../assets/downloads/ROHand/OHandSetting-Instruction-Manual.pdf){: target="_blank"}
 
 ## Host Computer Video Tutorial
 
