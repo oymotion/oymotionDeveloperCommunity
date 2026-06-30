@@ -20,7 +20,9 @@ ROHand 灵巧手提供 UART、RS485([下载驱动](https://www.wch.cn/downloads/
 
 [<u>Windows</u>](../../assets/downloads/ROHand/OHandSetting-Windows.zip)
 
-[<u>Ubuntu</u>](../../assets/downloads/ROHand/OHandSetting-Ubuntu.zip)
+[<u>Ubuntu22</u>](../../assets/downloads/ROHand/OHandSetting-Ubuntu22.zip)
+
+[<u>Ubuntu24</u>](../../assets/downloads/ROHand/OHandSetting-Ubuntu24.zip)
 
 ## 上位机使用手册
 
