@@ -13,10 +13,10 @@ Displays waveforms according to EMG data from gForcePro. Sends sound on/off bit 
 
 ## Download
 
-Download [click here](https://github.com/oymotion/oym8CHWave/releases){: target="_blank"}
+Software download [click here](../../../assets/downloads/gForce/oym8CHWave.zip){: target="_blank"}, user guide download [click here](../../../assets/downloads/gForce/oym8CHWaveUserGuide.pdf){: target="_blank"}
 
 ***
 
 ## Source code
 
-View source [click here](https://github.com/oymotion/oym8CHWave){: target="_blank"}
+View source code [click here](https://github.com/oymotion/oym8CHWave){: target="_blank"}

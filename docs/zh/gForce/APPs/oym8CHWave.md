@@ -13,8 +13,7 @@
 
 ## 下载
 
-[点击此处](https://github.com/oymotion/oym8CHWave/releases){: target="_blank"} 下载
-
+软件下载 [点击此处](../../../assets/downloads/gForce/oym8CHWave.zip){: target="_blank"}, 操作指南下载 [点击此处](../../../assets/downloads/gForce/oym8CHWave用户指南.pdf){: target="_blank"}
 ***
 
 ## 源代码
